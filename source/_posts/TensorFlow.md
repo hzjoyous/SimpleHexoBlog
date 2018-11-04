@@ -1,7 +1,8 @@
 ---
 title: TensorFlow
 date: 2018-11-04 15:25:38
-tags:
+tags: other
+categories: other
 ---
 
 # TensorFlow 实践之路

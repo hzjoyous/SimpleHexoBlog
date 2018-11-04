@@ -1,7 +1,8 @@
 ---
 title: 使用 vargrant 运行 lnmp 环境
 date: 2018-11-04 15:25:38
-tags:
+tags: tool
+categories: tool
 ---
 
 ```
