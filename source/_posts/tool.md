@@ -1,4 +1,9 @@
- 
+---
+title: tool
+date: 2018-11-04 15:25:38
+tags:
+---
+
 ### my_win
 
 ```bat
@@ -16,5 +21,5 @@ alias blogrun='bundle exec jekyll serve'
 ```
 
 ```shell
-svn log --limit 10 -v | sed -n '/zhangchen/,/-----$/ p' 
+svn log --limit 10 -v | sed -n '/username/,/-----$/ p' 
 ```
