@@ -1,11 +1,16 @@
 ---
-title: tool
+title: 工具箱
 date: 2018-11-05 15:25:38
 tags: tool
 categories: tool
 ---
 
+
 # my_win
+
+> 关于 windows 独占的工具使用
+
+##
 
 ```bat
 # 一个控制台的调色工具 ms 官方提供
@@ -29,6 +34,7 @@ alias blogrun='bundle exec jekyll serve'
 #匹配文件后缀为 .jpg 的文件并且删除
 find ./ -name '*.jpg'  | xargs rm 
 
+# svn 根据提交人过滤 / sed 命令的使用
 svn log --limit 10 -v | sed -n '/username/,/-----$/ p' 
 
 # 多彩日志
