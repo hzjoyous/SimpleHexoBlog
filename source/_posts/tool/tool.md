@@ -101,6 +101,21 @@ git remote prune origin
 扩展:
 - [几乎所有的 git 撤销](http://blog.jobbole.com/87700/)
 
+```sh
+cd /home/users/hzj/tmpgit/web/                                                                                                                                                                                
+git checkout master                                                                                                                                                                                                 
+oldTimetime=$(date -d "3 days ago" +%Y_%m_%d_%H)                                                                                                                                                                    
+git branch -d hotfix/hzj/${oldTimetime}                                                                                                                                                                       
+git push origin --delete hotfix/hzj/${oldTimetime}                                                                                                                                                            
+git pull                                                                                                                                                                                                            
+time=$(date "+%Y_%m_%d_%H")                                                                                                                                                                                         
+branchName=hotfix/hzj/${time}                                                                                                                                                                                 
+git checkout -b ${branchName}                                                                                                                                                                                       
+git pull                                                                                                                                                                                                            
+git push origin ${branchName}:${branchName}     
+```
+
+
 # lnmp
 
 ```sh
