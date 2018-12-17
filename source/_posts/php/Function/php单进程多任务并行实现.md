@@ -1,0 +1,48 @@
+---
+title: php单进程多任务并行处理实现
+date: 2018-12-12 22:12:59
+tags: php
+---
+
+```php
+<?php
+$i = 1;
+
+$str = <<<EOF
+<?php
+\$logName = basename(__FILE__);
+\$i =1;
+
+\$result = '';
+\$result .= "初始: " . memory_get_usage() . "B\n";
+\$result .= "使用: " . memory_get_usage() . "B\n";
+while(\$i--){
+    sleep(10);
+    
+    \$result .= "释放: " . memory_get_usage() . "B\n";
+    \$result .= "峰值: " . memory_get_peak_usage() . "B\n";
+    file_put_contents(__DIR__.'/'.\$logName.'.log',time().PHP_EOL.\$result,FILE_APPEND);
+}
+EOF;
+$file_name = [];
+while ($i < 10) {
+    $file_name[] = 'timeEvent' . $i . '.php';
+    file_put_contents(__DIR__ . '/' . 'timeEvent' . $i . '.php', $str);
+    $i++;
+}
+
+var_dump($file_name);
+
+foreach ($file_name as $name) {
+
+    $strRun = 'php ' . __DIR__ . '/' . $name . ' &';
+    $waitClose = pclose(popen($strRun, 'r'));
+    echo time() . PHP_EOL;
+}
+$result = '';
+$result .= "初始: " . memory_get_usage() . "B\n";
+$result .= "使用: " . memory_get_usage() . "B\n";
+$result .= "释放: " . memory_get_usage() . "B\n";
+$result .= "峰值: " . memory_get_peak_usage() . "B\n";
+
+```
