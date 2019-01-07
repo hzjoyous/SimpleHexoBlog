@@ -97,7 +97,25 @@ git remote add origin git@23123.com
 git remote prune origin
 
 
+# 如果是linux和windows混合开发，很容易会遇到行尾换行符的问题，windows下默认是\r\n，linux下是\n。如果没做处理，git提交时很有可能产生问题，解决办法为设置git config的 core.autocrlf，
+git config --global core.autocrlf true # 表示自动更换crlf，windows下如果checkout是\n，则自动换为\r\n，在提交时在自动换回\n
+git config --global core.autocrlf input # 自动把\r\n换为\n
+git config --global core.autocrlf false # 就是不作处理
+# 如果已经产生了\r\n，merge时产生问题，可以设置
+git config merge.renormalize true # merge时忽略行尾对比
+如果只需要执行一次merge可以是用命令
+git merge -s recursive -X ignore-space-at-eol origin/master
+# 还可以设置crlf安全检查
+git config --global core.safecrlf true # 禁止提交混合\n和\r\n的文件
+git config --global core.safecrlf false # 允许提交
+git config --global core.safecrlf warn # 提交时产生警告
+
+# 如果经常产生文件属性变更的情况，可以设置
+git config –global core.filemode false
+
 ```
+
+
 扩展:
 - [几乎所有的 git 撤销](http://blog.jobbole.com/87700/)
 
