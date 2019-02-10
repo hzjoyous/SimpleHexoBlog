@@ -111,7 +111,7 @@ git config --global core.safecrlf false # 允许提交
 git config --global core.safecrlf warn # 提交时产生警告
 
 # 如果经常产生文件属性变更的情况，可以设置
-git config –global core.filemode false
+git config --global core.filemode false
 
 ```
 
@@ -131,6 +131,11 @@ branchName=hotfix/hzj/${time}
 git checkout -b ${branchName}                                                                                                                                                                                       
 git pull                                                                                                                                                                                                            
 git push origin ${branchName}:${branchName}     
+```
+
+
+```git
+
 ```
 
 
