@@ -1,7 +1,8 @@
 ---
 title: PHP[003]:symfony
 date: 2019-01-05 13:18:33
-tags:
+tags: php
+categories: php 
 ---
 
 

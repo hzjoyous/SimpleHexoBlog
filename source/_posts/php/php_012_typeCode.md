@@ -3,6 +3,7 @@ title: 'PHP[012]:TypeCode'
 p: php/php_012_typeCode
 date: 2019-02-20 15:17:56
 tags: php
+categories: php 
 ---
 
 如何利用php严格模式写出理想的代码

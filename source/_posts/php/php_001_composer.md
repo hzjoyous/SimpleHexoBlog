@@ -2,6 +2,7 @@
 title: PHP[001]:Composer
 date: 2018-11-27 09:48:32
 tags: php
+categories: php 
 ---
 
 > https://github.com/slince/composer-registry-manager
