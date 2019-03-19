@@ -1,7 +1,7 @@
 ---
 title: 'PHP[012]:TypeCode'
 p: php/php_012_typeCode
-date: 2019-02-20 15:17:56
+date: 2018-10-27 09:48:45
 tags: php
 categories: php 
 ---

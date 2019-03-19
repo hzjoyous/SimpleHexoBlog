@@ -1,7 +1,7 @@
 ---
 title: Just so so
 date: 2018-11-04 15:25:38
-tags: Article
+tags: blog
 ---
 
 # Before You Feel Pressure

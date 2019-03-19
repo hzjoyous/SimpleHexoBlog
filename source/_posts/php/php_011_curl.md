@@ -1,8 +1,10 @@
 ---
 title: PHP[011]:curl
-date: 2019-02-10 15:25:38
-tags: php http
-categories: php 
+date: 2018-10-27 09:48:44
+tags: 
+- php
+- http
+categories: php
 ---
 
 今天在研究了下 php curl cookie的使用 , 本來打算写一篇关于 php curl 的使用，主要是关于 cookie 的，但是 curl 在一定程度上相比于 socket 算是一个经过封装的扩展，所以写的过程中又引入了一个使用 socket 进行 http 请求的文章

@@ -1,12 +1,13 @@
 ---
-title: 'PHP[016]:事件监听'
-p: php/php_016_事件监听
-date: 2019-03-18 15:17:56
+title: 'PHP[017]:事件监听'
+p: php/php_017_事件监听
+date: 2019-03-18 15:20:09
 tags: php
 categories: php 
 ---
 
-```php<?php
+```php
+<?php
 
 class Event
 {

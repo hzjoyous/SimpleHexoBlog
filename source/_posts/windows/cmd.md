@@ -1,8 +1,10 @@
 ---
 title: cmd & powerShell
 date: 2018-11-04 15:25:38
-tags: windows
-categories: windows
+tags: 
+- tool
+- windows
+categories: tool
 ---
 
 ```bat

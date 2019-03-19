@@ -7,7 +7,7 @@ categories: other
 
 # TensorFlow 实践之路
 
-> 不实践
+> 修仙吗，骚年
 
 
 

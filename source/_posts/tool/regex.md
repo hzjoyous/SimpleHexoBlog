@@ -1,8 +1,8 @@
 ---
 title: regex
 date: 2018-12-05 15:25:38
-tags: study
-categories: study
+tags: tool
+categories: tool
 ---
 
 
