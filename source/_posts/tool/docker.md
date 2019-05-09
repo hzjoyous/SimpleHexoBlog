@@ -1,8 +1,10 @@
 ---
 title: docker
 date: 2019-01-01 16:25:59
-tags: linux
-categories: linux
+tags: 
+- tool
+- linux
+categories: tool
 ---
 
 ```shell
