@@ -25,14 +25,14 @@ function editpspre{
 }
 ```
 
-| cmd | PowerShell                                             | linux-bash                  | desc   |
-|-----|--------------------------------------------------------|-----------------------------|--------|
-| cd  | cd                                                     | cd                          |        |
-|     | `[command1] ; [command2\]`                             | `[command1] ; [command2\]`  |        |
-|     | `try{[command1] ; [command2\]} catch{$error[0];break}` | `[command1] && [command2\]` |        |
-|     | `[command1] | [command2]`                              | `[command1] | [command2]`   | 管道   |
-|     | `[command1] > 1.txt`                                   | `[command1] > 1.txt`        | 重定向 |
-|     | `[command1] >> 1.txt`                                  | `[command1] >> 1.txt`       | 重定向 |
+| cmd | PowerShell                                            | linux-bash                 | desc   |
+|-----|-------------------------------------------------------|----------------------------|--------|
+| cd  | cd                                                    | cd                         |        |
+|     | `[command1] ; [command2]`                             | `[command1] ; [command2]`  |        |
+|     | `try{[command1] ; [command2]} catch{$error[0];break}` | `[command1] && [command2]` |        |
+|     | `[command1] \| [command2]`                             | `[command1] \| [command2]`  | 管道   |
+|     | `[command1] > 1.txt`                                  | `[command1] > 1.txt`       | 重定向 |
+|     | `[command1] >> 1.txt`                                 | `[command1] >> 1.txt`      | 重定向 |
 
 
 

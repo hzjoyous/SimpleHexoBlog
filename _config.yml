@@ -82,7 +82,7 @@ theme: next6.0
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:hzj991/hzj991.github.io.git
+  repo: git@github.com:hzjoyous/hzjoyous.github.io.git
   branch: master
 
 live2d:
