@@ -1,6 +1,6 @@
 ---
 title: 'c/c++[001]:start'
-date: 2019-05-25 15:18:09
+date: 2017-05-25 15:18:09
 tags: c
 categories: c
 ---

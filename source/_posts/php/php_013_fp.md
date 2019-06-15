@@ -1,5 +1,5 @@
 ---
-title: 'PHP[013]:fp'
+title: PHP[013]:fp
 p: php/php_013_fp
 date: 2019-03-18 15:17:56
 tags: php

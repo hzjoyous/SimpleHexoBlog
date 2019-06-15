@@ -1,5 +1,5 @@
 ---
-title: 'PHP[018]:RabbitMq'
+title: PHP[018]:RabbitMq
 p: php/php_018_RabbitMq
 date: 2019-03-19 15:20:09
 tags: php

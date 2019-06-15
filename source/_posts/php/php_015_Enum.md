@@ -1,5 +1,5 @@
 ---
-title: 'PHP[015]:PHP Enum'
+title: PHP[015]:PHP Enum
 p: php/php_015_PHP Enum
 date: 2019-03-18 15:17:58
 tags: php

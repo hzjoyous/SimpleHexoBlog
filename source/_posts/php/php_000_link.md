@@ -6,15 +6,11 @@ tags: php
 categories: php 
 ---
 
-
-https://web-techno.net/code-quality-check-tools-php/
-https://juejin.im/post/5c97142f5188252d665f53dc?utm_source=gold_browser_extension
-
-
-https://github.com/wapmorgan/PhpCodeFixer
-php版本兼容
-https://github.com/phpstan/phpstan
-静态检测
-https://github.com/bmitch/churn-php
-代码复杂的检测
-https://github.com/JakubOnderka/PHP-Parallel-Lint
+| x                                                     | url                                                  |
+|-------------------------------------------------------|------------------------------------------------------|
+| PHP Code Quality Tools to Check and Improve your Code | https://web-techno.net/code-quality-check-tools-php/ |
+| Github星聚弃疗榜(Github星爆沙雕榜)                    | https://github.com/zhaoolee/StarsAndClown            |
+| php版本兼容                                           | https://github.com/wapmorgan/PhpCodeFixer            |
+| 静态检测                                              | https://github.com/phpstan/phpstan                   |
+| 代码复杂的检测                                        | https://github.com/bmitch/churn-php                  |
+| 静态检测                                              | https://github.com/JakubOnderka/PHP-Parallel-Lint    |

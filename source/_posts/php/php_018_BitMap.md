@@ -1,5 +1,5 @@
 ---
-title: 'PHP[018]:BitMap'
+title: PHP[018]:BitMap
 p: php/php_018_BitMap
 date: 2019-03-19 15:20:09
 tags: php
