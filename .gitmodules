@@ -1,0 +1,3 @@
+[submodule "myNext"]
+	path = themes/myNext
+	url = git@github.com:hzjoyous/myNext.git
