@@ -159,3 +159,15 @@ ssh-keygen -t rsa
 cat id_rsa.pub >> authorized_keys  
 ```
 
+# linux 
+添加用户
+```
+ useradd -m getianmeng
+ passwd getianmeng W4v1iQt*****************
+```
+ 添加yum的root执行权限
+```
+#vim sudoers
+cd /etc/sudoers.d
+```
+`getianmeng ALL=(root) /usr/bin/yum`
