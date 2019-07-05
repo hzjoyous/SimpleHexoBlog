@@ -4,8 +4,8 @@
 
 # Site
 title: biubiubiu~
-subtitle: 吾生也有涯，而知也无涯。以有涯随无涯，殆已！已而为知者，殆而已矣
-description:
+subtitle: 快乐~
+description: 
 keywords:
 author: hzjoyous
 language: zh-Hans
@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://hzjoyous.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -97,7 +97,7 @@ live2d:
     use: live2d-widget-model-wanko
   display:
     position: left
-    width: 225
-    height: 450
+    width: 100
+    height: 200
   mobile:
     show: true
