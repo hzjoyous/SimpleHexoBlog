@@ -38,3 +38,5 @@ if (file_exists($newBlogFilePath) == 1) {
 file_put_contents($newBlogFilePath, $content, 8);
 echo realpath($newBlogFilePath);
 echo PHP_EOL;
+
+exec('code '.$newBlogFilePath);
