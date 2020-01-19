@@ -1,6 +1,9 @@
 ---
 title: Just so so
 date: 2018-11-04 15:25:38
+categories: 
+- blog
+- blog
 tags: blog
 ---
 

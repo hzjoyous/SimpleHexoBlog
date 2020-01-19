@@ -1,5 +1,5 @@
 ---
-title: PHP[018]:--with-php-config
+title: PHP[020]:--with-php-config
 p: php/--with-php-config
 date: 2020-01-15 15:20:09
 tags: php
