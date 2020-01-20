@@ -8,7 +8,7 @@ subtitle: 知我者，谓我心忧，不知我者，谓我何求~
 description: 
 keywords:
 author: hzjoyous
-language: zh-Hans
+language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
@@ -76,7 +76,7 @@ pagination_dir: page
 #theme: landscape
 #landscape is a default theme
 # theme: hexo-theme-sagiri
-theme: next
+theme: next6
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
