@@ -79,40 +79,26 @@ inquirer
         console.log(chalk.blue(groupName));
 
         var content = getBlankTemplate(postName);
-
-        var runVscode = function () {
-            execute("code " + POST_PATH + groupName + '/' + postName + '.md');
+        var haveDir = false
+        try {
+            var stat = fs.statSync(POST_PATH + groupName);
+            haveDir = stat.isDirectory();
+        } catch (error) {
+            console.log(chalk.redBright("组目录不存在，准备创建"));
         }
 
-        var writePost = function (content, callback) {
-            fs.appendFile(POST_PATH + groupName + '/' + postName + '.md', content, {}, function (err) {
-                if (err) {
-                    return console.error(err)
-                } else {
-                    console.log("写入成功");
-                    callback();
-                }
-            })
-        };
+        if (!haveDir) {
+            fs.mkdirSync(POST_PATH + groupName);
+            console.log(chalk.green("组目录创建成功"));
+        }
 
-        // 判断目录是否存在
-        fs.readdir(POST_PATH + groupName, function (err, files) {
-            if (err) {
+        fs.appendFileSync(POST_PATH + groupName + '/' + postName + '.md',content);
+        
+        console.log("写入成功");
 
-                console.log(chalk.redBright("组目录不存在，准备创建"));
-                fs.mkdir(POST_PATH + groupName, function (err) {
-                    if (err) {
-                        return console.error(err);
-                    }
-                    console.log(chalk.green("组目录创建成功"));
-                    writePost(content,runVscode);
-                });
+        console.log("code " + POST_PATH + groupName + '/' + postName + '.md');
 
-            } else {
-                console.log(chalk.green("组目录存在"));
-                writePost(content,runVscode);
-            }
-        })
+        execute("code " + POST_PATH + groupName + '/' + postName + '.md');
 
         console.log(chalk.greenBright(content));
 
