@@ -6,7 +6,7 @@ var fs = require("fs")
 var exec = require('child_process').exec;
 function execute(cmd) {
 
-    exec(cmd, function (error, stdout, stderr) {
+    exec(cmd, function (error, _stdout, _stderr) {
         if (error) {
             console.error(error);
         }
