@@ -94,6 +94,7 @@ git rm -r --cached .
 git add .gitignore  
 git commit -m "update .gitignore"  
 git remote add origin git@23123.com
+# 也就是说你可以刷新本地仓库与远程仓库的保持这些改动的同步
 git remote prune origin
 
 
