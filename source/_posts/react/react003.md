@@ -1,8 +1,10 @@
 ---
-title: react003 样式
+title: React[003]样式
 date: 2020-01-29 18:44
-tags: other
-categories: other
+tags: 
+- React
+- js
+categories: web
 ---
 
 

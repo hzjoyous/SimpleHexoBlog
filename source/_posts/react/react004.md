@@ -1,8 +1,10 @@
 ---
-title: react004 Component+数据传递
+title: React[004] Component+数据传递
 date: 2020-01-30 17:51
-tags: other
-categories: other
+tags: 
+- React
+- js
+categories: web
 ---
 
 src/components/Header/index.js

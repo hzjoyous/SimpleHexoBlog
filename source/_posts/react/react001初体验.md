@@ -1,8 +1,10 @@
 ---
-title: react001初体验
+title: React[001]:初体验
 date: 2020-01-28 23:01
-tags: other
-categories: other
+tags: 
+- React
+- js
+categories: web
 ---
 
 # 小样儿挺别致呀，写起来的感觉

@@ -1,8 +1,10 @@
 ---
-title: react002
+title: React[002]:jsx
 date: 2020-01-29 18:45
-tags: other
-categories: other
+tags: 
+- React
+- js
+categories: web
 ---
 
 js/jsx/js=>jsx

@@ -1,11 +1,12 @@
 
 const program = require('commander');
 const chalk = require('chalk');
+const moment = require('moment');
 var inquirer = require('inquirer');
 var fs = require("fs")
 var exec = require('child_process').exec;
-function execute(cmd) {
 
+function execute(cmd) {
     exec(cmd, function (error, _stdout, _stderr) {
         if (error) {
             console.error(error);
@@ -14,37 +15,17 @@ function execute(cmd) {
             console.log("success");
         }
     });
-
 }
+
 
 const ROOT_PATH = './';
 const POST_PATH = ROOT_PATH + 'source/' + '_posts/';
 
 program.version('0.0.1');
 
-function dateFormat(fmt, date) {
-    let ret;
-    const opt = {
-        "Y+": date.getFullYear().toString(),        // 年
-        "m+": (date.getMonth() + 1).toString(),     // 月
-        "d+": date.getDate().toString(),            // 日
-        "H+": date.getHours().toString(),           // 时
-        "M+": date.getMinutes().toString(),         // 分
-        "S+": date.getSeconds().toString()          // 秒
-        // 有其他格式化字符需求可以继续添加，必须转化成字符串
-    };
-    for (let k in opt) {
-        ret = new RegExp("(" + k + ")").exec(fmt);
-        if (ret) {
-            fmt = fmt.replace(ret[1], (ret[1].length == 1) ? (opt[k]) : (opt[k].padStart(ret[1].length, "0")))
-        };
-    };
-    return fmt;
-}
 
 function getBlankTemplate(blogName) {
-    let date = new Date()
-    let createTime = dateFormat("YYYY-mm-dd HH:MM", date);
+    let createTime = moment().format('YYYY-MM-DD HH:mm:ss')
     let content = "---\n";
     content += "title: " + blogName + "\n";
     content += "date: " + createTime + "\n";
@@ -92,8 +73,8 @@ inquirer
             console.log(chalk.green("组目录创建成功"));
         }
 
-        fs.appendFileSync(POST_PATH + groupName + '/' + postName + '.md',content);
-        
+        fs.appendFileSync(POST_PATH + groupName + '/' + postName + '.md', content);
+
         console.log("写入成功");
 
         console.log("code " + POST_PATH + groupName + '/' + postName + '.md');

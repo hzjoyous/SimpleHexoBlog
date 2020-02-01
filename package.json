@@ -21,7 +21,8 @@
     "hexo-renderer-marked": "^2.0.0",
     "hexo-renderer-stylus": "^0.3.3",
     "hexo-server": "^0.3.1",
-    "inquirer": "^7.0.3"
+    "inquirer": "^7.0.3",
+    "moment": "^2.24.0"
   },
   "scripts": {
     "new": "node tool/newblog.js"
