@@ -87,4 +87,17 @@
     path: '{{ config.search.path }}',
     motion: {{ theme.motion | json }}
   };
+  if (document.hidden !== undefined) {
+    var defaultTitle = document.title || '';
+    document.addEventListener('visibilitychange', () => {
+        switch (document.visibilityState) {
+            case 'visible':
+                document.title = defaultTitle
+                break
+            default:
+                document.title = ('( ╯□╰ )')
+        }
+        console.debug(document.hidden)
+    })
+}
 </script>
