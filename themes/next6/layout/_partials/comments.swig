@@ -199,7 +199,8 @@
             <button v-on:click="submitComment()">提交评论</button>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/vue"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11/dist/vue.min.js"></script>
     <!--<script src="https://vuejs.org/js/vue.js"></script>-->
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script>

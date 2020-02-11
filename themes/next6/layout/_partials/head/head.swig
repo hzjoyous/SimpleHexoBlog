@@ -93,11 +93,13 @@
         switch (document.visibilityState) {
             case 'visible':
                 document.title = defaultTitle
+                defaultTitle = ('( ╯□╰ )')
                 break
             default:
+                defaultTitle = document.title
                 document.title = ('( ╯□╰ )')
         }
         console.debug(document.hidden)
     })
-}
+   }
 </script>
