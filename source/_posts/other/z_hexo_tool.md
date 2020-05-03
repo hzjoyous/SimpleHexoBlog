@@ -59,7 +59,7 @@ echo PHP_EOL;
 exec('code '.$newBlogFilePath);
 ```
 
-如果我继续使用php编写cli脚本的话，我可能就会期望选用 symfony/console 来定制我需要的交互式命令，因为决定不使用php，所以我需要在npm中寻找对应的包，**毕竟都不是新型语言，所以在这种辅助类工具开发上，一旦需求变高，找轮子要优于造轮子**，首先我在[npm](https://www.npmjs.com/)中搜索command和console,但是结果显示的包更新日期都比在数个月以上了。所以决定更换查找方式。于是决定先参考以下vue-cli引用了类似的包，这里用的everything进行的查询
+如果我继续使用php编写cli脚本的话，我可能就会期望选用 symfony/console 来定制我需要的交互式命令，因为决定不使用php，所以我需要在npm中寻找对应的包，**毕竟都不是新型语言，所以在这种辅助类工具开发上，一旦需求变高，找轮子要优于造轮子**，首先我在[npm](https://www.npmjs.com/)中搜索 command 和 console ,但是结果显示的包更新日期都比在数个月以上了。所以决定更换查找方式。于是决定先参考以下vue-cli引用了类似的包，这里用的everything进行的查询
 
 ![EveryThing搜索结果](/images/2020/未命名1579419556.png)
 

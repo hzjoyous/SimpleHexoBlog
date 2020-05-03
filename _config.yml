@@ -82,5 +82,6 @@ theme: next6
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:hzjoyous/hzjoyous.github.io.git
+  # repo: git@github.com:hzjoyous/hzjoyous.github.io.git
+  repo: https://github.com/hzjoyous/hzjoyous.github.io.git
   branch: master
