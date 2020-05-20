@@ -1,5 +1,5 @@
 ---
-title: wsl_p
+title: wsl permissions
 date: 2020-05-03 23:01:16
 tags: other
 categories: other
@@ -27,7 +27,5 @@ umask = 022
 ```
 更改重启之后，一些文件的权限会改为跟 Linux 权限一样，不再是默认的全部 777 了。
 
-
-<!--more-->
 
 

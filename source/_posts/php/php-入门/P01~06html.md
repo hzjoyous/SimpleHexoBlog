@@ -9,17 +9,15 @@ categories: php
 > 这是我早期的 php 学习笔记，php 的学习版本版本是 5.6、7，🐟2020/05/06年从有道笔记导出至此。
 
 
-day01-HTML初认识
-
-1.B/S和C/S的简单认识
+# B/S和C/S的简单认识
 
 client-server:客户端服务器模式
 
-开发成本比较高 不易于维护 在客户端部署一套软件，服务器端也要部署
+开发成本比较高、不易于维护、在客户端部署一套软件，服务器端也要部署
 
 browser-server:浏览器服务器模式
 
-2.网页的工作原理
+# 网页的工作原理
 
 通过域名或者ip然后访问服务器 服务器解析请求返回的是一个html文件
 
@@ -31,7 +29,7 @@ HTML是Hypertext Markup Language
 
 组织-》文件夹和搜索选项-》查看-》隐藏已知文件的扩展名（去掉不选中）
 
-3.认识标签
+# 认识标签
 
 格式：
 
@@ -53,7 +51,7 @@ marquee(direction,scrollamount,width,height,loop)
 
 单边标签 `<br />`:换行
 
-4.全局架构标签
+# 全局架构标签
 
 ```html
 <html>
@@ -75,7 +73,9 @@ marquee(direction,scrollamount,width,height,loop)
 
 设置字符集 ：告诉浏览器以utf-8编码格式显示
 
-出现乱码：1:文件的编码的格式（编辑器中选择utf-8无bom）
+出现乱码：
+
+1:文件的编码的格式（编辑器中选择utf-8无bom）
 
 2:在head头部 增加 `<meta charset="utf-8">`
 
@@ -127,39 +127,26 @@ color:字体颜色
 ```
 7.排版标记
 
-\<p\>段落标记\</p\> 会自称一行（段）
-
-\<span\>行标签\</span\>
-
-\<br /\>:换行
-
-\<nobr /\>：不换行
-
-\<hr /\>水平线：(
-
-align: 对其方式 属性值：center left right
-
-color：颜色
-
-width：宽
-
-size：粗细尺寸)
-
-\<h1\>标题\</h1\>（从h1到h6）通常网页中只会有一个h1
-
-\<h6\>\<h6\>(align)
-
-\<pre\>原样输出\</pre\>（在学php时候 经常使用输出数据的时候进行格式化）
+```html
+<p>段落标记</p> 会自称一行（段）
+<span>行标签</span>
+<br />:换行
+<nobr />：不换行
+<hr />水平线：(align: 对其方式 属性值：center left right color：颜色 width：宽 size：粗细尺寸)
+<h1>标题</h1>（从h1到h6）通常网页中只会有一个h1
+<h6><h6>(align)
+<pre>原样输出</pre>（在学php时候 经常使用输出数据的时候进行格式化）
+```
 
 8.实体符号
 
-诸如 "\<" 之类的符号在HTML中拥有特殊的含义，所以在文本中使用它们。
-
+诸如 "<" 之类的符号在HTML中拥有特殊的含义，所以在文本中使用它们。
+```html
 &nbsp; 空格
 
-&lt; （\<）
+&lt; （<）
 
-&gt; (\>)
+&gt; (>)
 
 &amp;
 
@@ -168,20 +155,22 @@ size：粗细尺寸)
 &trade;
 
 &reg; &times; &divide;
+```
 
 9.无序列表
+```html
+<ul>
 
-\<ul\>
+<li> </li>
 
-\<li\> \</li\>
+<li> </li>
 
-\<li\> \</li\>
+<li> </li>
 
-\<li\> \</li\>
+<li> </li>
 
-\<li\> \</li\>
-
-\</ul\>
+</ul>
+```
 
 type:
 
@@ -193,15 +182,17 @@ square: 实心方块
 
 10.有序列表
 
-\<ol\>
+```html
+<ol>
 
-\<li\>\</li\>
+<li></li>
 
-\<li\>\</li\>
+<li></li>
 
-\<li\>\</li\>
+<li></li>
 
-\</ol\>
+</ol>
+```
 
 type: 1 A a I
 
@@ -209,17 +200,20 @@ start: 要显示列表的起始位置
 
 11.自定义列表
 
-\<dl\>
+```html
 
-\<dt\>我是简介名\</dt\>
+<dl>
 
-\<dd\>幸福的孩子\</dd\>
+<dt>我是简介名</dt>
 
-\<dd\>杜海涛\</dd\>
+<dd>幸福的孩子</dd>
 
-\<dd\>刘翔\</dd\>
+<dd>杜海涛</dd>
 
-\</dl\>
+<dd>刘翔</dd>
+
+</dl>
+```
 
 class id style name 他们四个都是属性名 配合我们的css 跟 js
 
@@ -239,9 +233,9 @@ day02 HTML再认识
 
 nobr:
 
-双标签 \<nobr\>中间的内容不允许换行，这就是nobr\</nobr\>
+双标签 `<nobr>`中间的内容不允许换行，这就是nobr`</nobr>`
 
-1.URL(默写)
+1.URL
 
 Uniform Resource Locator 统一资源定位符
 
@@ -264,25 +258,27 @@ https 443 ftp: 21 smtp:// 25
 
 http://www.baidu.com:80/index.html?word=qianfeng&sex=1
 
-2.超链接（默写）
+2.超链接
 
-\<a href=\"\" \>\</a\>
+```html
+<a href="" ></a>
 
 href:要跳转的地址
 
 title: 就是鼠标放上去时候显示的内容（变成小手的时候）
 
-target：\_self 在本窗口打开 \_blank 在新窗口打开
+target：_self 在本窗口打开 _blank 在新窗口打开
 
 锚点：
 
-\<a href=\"\#锚点名\"\>\</a\>
+<a href="#锚点名"></a>
 
-\<a name=\"锚点名\"\>\</a\>
+<a name="锚点名"></a>
 
-了解（id=\"锚点名\"）
+了解（id="锚点名"）
+```
 
-3.图片img(默写)
+3.图片img
 
 src资源地址
 
@@ -387,11 +383,14 @@ url参数作用:
 
 a标签扩展：
 
-\<a href=\"tel:132603519038\"\>dadianhua\</a\>
+```html
+<a href="tel:132603519038">dadianhua</a>
 
-\<a href=\"mailto:wanglijuan\@1000phone.com\"\>发送邮件\</a\>
+<a href="mailto:wanglijuan@1000phone.com">发送邮件</a>
+```
 
-1：iframe(width\\height\\src\\name\\frameborder\\scrolling)
+1：iframe
+(width\\height\\src\\name\\frameborder\\scrolling)
 
 frameborder :0/1
 
