@@ -49,9 +49,20 @@
   </div>
 {%- endif %}
 
-{%- if theme.footer.powered.enable and theme.footer.theme.enable %}
+{%- if theme.footer.powered.enable and theme.footer.hosted.enable %}
   <span class="post-meta-divider">|</span>
 {%- endif %}
+
+{%- if theme.footer.hosted.enable %}
+ <div class="powered-by">
+      Hosted By <a href="{{url_for(theme.footer.hosted.url)}}">{{theme.footer.hosted.content}}</a>
+ </div>
+{%- endif %}
+
+{%- if theme.footer.hosted.enable and theme.footer.theme.enable %}
+  <span class="post-meta-divider">|</span>
+{%- endif %}
+
 
 {%- if theme.footer.theme.enable %}
   <div class="theme-info">
@@ -63,6 +74,7 @@
     {%- if theme.footer.theme.version %} v{{ next_version }}{%- endif %}
   </div>
 {%- endif %}
+
 
 {%- if theme.add_this_id %}
   <div class="addthis_inline_share_toolbox">

@@ -87,6 +87,11 @@ footer:
     # The icon for gongan beian. See: http://www.beian.gov.cn/portal/download
     gongan_icon_url:
 
+  hosted:
+    enable: true
+    url: 'https://cloud.tencent.com/product/wh?from=12331'
+    content: '云开发'
+
 # Creative Commons 4.0 International License.
 # See: https://creativecommons.org/share-your-work/licensing-types-examples
 # Available values of license: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
@@ -195,6 +200,10 @@ social:
   #Instagram: https://instagram.com/yourname || instagram
   #Skype: skype:yourname?call|chat || skype
   #RSS: /atom.xml || rss
+
+ad:
+  img_url: /images/tx-cloud-ad.png
+  url:  https://cloud.tencent.com/product/wh?from=12331
 
 social_icons:
   enable: true

@@ -43,7 +43,8 @@
           <span>0%</span>
         </div>
       {%- endif %}
-
+      
+    <a href="{{url_for(theme.ad.url)}}"><img  src="{{url_for(theme.ad.img_url)}}" alt=""></a>
     </div>
   </aside>
   <div id="sidebar-dimmer"></div>
