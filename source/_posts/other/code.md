@@ -29,6 +29,9 @@ const a4, b4, c4 = 1, false, "str"
 ```py
 value = 1
 ```
+
+<!--more-->
+
 ## function
 
 ### php

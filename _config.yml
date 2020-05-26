@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 吱
+title: 吱~
 subtitle: 吱吱吱，吱吱，吱吱吱吱吱，吱吱~
 description: 
 keywords:
@@ -84,5 +84,7 @@ theme: icarus
 deploy:
   type: git
   # repo: git@github.com:hzjoyous/hzjoyous.github.io.git
-  repo: https://github.com/hzjoyous/hzjoyous.github.io.git
+  repo: 
+    github: https://github.com/hzjoyous/hzjoyous.github.io.git
+    gitee: https://gitee.com/hzjoyous/hzjoyous.git
   branch: master
