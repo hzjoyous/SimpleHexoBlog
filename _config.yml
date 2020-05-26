@@ -77,7 +77,7 @@ pagination_dir: page
 #landscape is a default theme
 # theme: hexo-theme-sagiri
 # theme: next6
-theme: icarus
+theme: myIcarus
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
