@@ -11,23 +11,23 @@ categories: php
 
 # B/S和C/S的简单认识
 
-client-server:客户端服务器模式
+client-server : 客户端服务器模式
 
 开发成本比较高、不易于维护、在客户端部署一套软件，服务器端也要部署
 
-browser-server:浏览器服务器模式
+browser-server : 浏览器服务器模式
 
 # 网页的工作原理
 
-通过域名或者ip然后访问服务器 服务器解析请求返回的是一个html文件
+通过域名或者 ip 然后访问服务器 服务器解析请求返回的是一个html文件
 
-浏览器将html文件解析成一个图文并茂的网页
+浏览器将 html 文件解析成一个图文并茂的网页
 
-html文件的组成部分： html css js(javascript)
+html 文件的组成部分: html css js(javascript)
 
-HTML是Hypertext Markup Language
+HTML 是 Hypertext Markup Language
 
-组织-》文件夹和搜索选项-》查看-》隐藏已知文件的扩展名（去掉不选中）
+组织->文件夹和搜索选项->查看->隐藏已知文件的扩展名（去掉不选中）
 
 # 认识标签
 
@@ -43,7 +43,7 @@ HTML是Hypertext Markup Language
 
 属性值 可以用双引号 单引号 或者不引 我建议使用双引号
 
-marquee(direction,scrollamount,width,height,loop)
+`marquee(direction,scrollamount,width,height,loop)`
 
 标签的分类：
 
@@ -75,31 +75,23 @@ marquee(direction,scrollamount,width,height,loop)
 
 出现乱码：
 
-1:文件的编码的格式（编辑器中选择utf-8无bom）
+- 文件的编码的格式（编辑器中选择utf-8无bom） 
+- 在head头部 增加 `<meta charset="utf-8">` 
+- 浏览器中：修改编码 
 
-2:在head头部 增加 `<meta charset="utf-8">`
+### body常用属性
+| tag         | desc                                   |
+| ----------- | -------------------------------------- |
+| bgcolor     | 背景颜色                               |
+| background  | 网页的背景图片                         |
+| text        | 字体颜色（控制body体中所有的文字颜色） |
+| left-margin | 左边距                                 |
+| top-margin  | 上边距                                 |
+| link        | 正常状态显示的颜色                     |
+| vlink       | 访问过后的状态                         |
+| alink       | 鼠标点击时候的状态                     |
 
-3:浏览器中：修改编码
-
-5.body常用属性
-
-bgcolor:背景颜色
-
-background：网页的背景图片
-
-text：字体颜色（控制body体中所有的文字颜色）
-
-leftmargin:左边距
-
-topmargin：上边距
-
-link:正常状态显示的颜色
-
-vlink :访问过后的状态
-
-alink:鼠标点击时候的状态
-
-6.字体修饰标记(如下都是双边标记)
+### 字体修饰标记(如下都是双边标记)
 
 `<font></font>`
 
@@ -111,7 +103,6 @@ color:字体颜色
 
 颜色： `#000000` 前两位是红色 中间是绿色 结尾两位是蓝色
 
-00-ff
 ```html
 <b></b>：字体加粗(strong)
 
@@ -125,7 +116,8 @@ color:字体颜色
 
 <sup></sup>：上标
 ```
-7.排版标记
+
+### 排版标记
 
 ```html
 <p>段落标记</p> 会自称一行（段）
@@ -138,7 +130,7 @@ color:字体颜色
 <pre>原样输出</pre>（在学php时候 经常使用输出数据的时候进行格式化）
 ```
 
-8.实体符号
+### 实体符号
 
 诸如 "<" 之类的符号在HTML中拥有特殊的含义，所以在文本中使用它们。
 ```html
@@ -157,7 +149,7 @@ color:字体颜色
 &reg; &times; &divide;
 ```
 
-9.无序列表
+### 无序列表
 ```html
 <ul>
 
@@ -198,7 +190,7 @@ type: 1 A a I
 
 start: 要显示列表的起始位置
 
-11.自定义列表
+### 自定义列表
 
 ```html
 
@@ -217,7 +209,7 @@ start: 要显示列表的起始位置
 
 class id style name 他们四个都是属性名 配合我们的css 跟 js
 
-\[注\]：基本上每个标签都有这四个属性
+**基本上每个标签都有这四个属性**
 
 动态网页：
 
@@ -227,7 +219,6 @@ class id style name 他们四个都是属性名 配合我们的css 跟 js
 
 做内容展示，所有人访问都是一样叫静态网页
 
-作业：代码 敲三遍
 
 day02 HTML再认识
 
@@ -501,7 +492,7 @@ option((value selected))
 
 双边标记：\<textarea\>默认中间不要有空格或者回车\</textarea\>
 
-【注】提交的都是意义的数据 不包括\<p\>\</p\>
+**提交的都是意义的数据 不包括`<p\></p>`**
 
 4:头元素
 
