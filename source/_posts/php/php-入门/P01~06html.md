@@ -432,7 +432,7 @@ readonly：只读
 
 disabled：禁用状态
 
-\[注\]:一般时候是用在只能看不能二次修改的值的时候（注册公司名）
+> :一般时候是用在只能看不能二次修改的值的时候（注册公司名）
 
 placeholder：提示信息 placeholder=\"默认提示的信息\"
 
@@ -446,15 +446,17 @@ password：密码
 
 radio：单选框
 
-\[注\]必须name值 name要一样
+> 必须name值 name要一样
 
 必须value 一般使用习惯：1男 2女 0未知或者保密
 
-radio(\<label for=\"id名\"\>详细见代码\</label\> checked)
+```
+radio(<label for="id名">详细见代码</label> checked)
 
 checkbox(checked)
+```
 
-\[说明\]:必须有name属性 属性值必须： eg:like\[\]
+> 说明:必须有name属性 属性值必须： eg:like
 
 value
 
@@ -482,11 +484,11 @@ reset:重置按钮 （清空表单input中用户键入的内容）
 
 下拉菜单
 
-\[注\]：name
+> ：name
 
 option((value selected))
 
-\[注\]：value
+> ：value
 
 (3)textarea(cols rows)
 
