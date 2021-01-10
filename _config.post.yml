@@ -1,0 +1,44 @@
+widgets:
+  -
+        # Where should the widget be placed, left sidebar or right sidebar
+        position: left
+        type: profile
+        # Author name
+        author: SimpleW
+        # Author title
+        author_title: SimplePage
+        # Author's current location
+        location: ZhongGuo
+        # URL or path to the avatar image
+        avatar: /images/theme/avatar2.jpg
+        # Whether show the rounded avatar image
+        avatar_rounded: true
+        # Email address for the Gravatar
+        gravatar: 
+        # URL or path for the follow button
+        follow_link: 'https://github.com/hzjoyous'
+        # Links to be shown on the bottom of the profile widget
+        social_links:
+            Github:
+                icon: fab fa-github
+                url: 'https://github.com/hzjoyous'
+            Weibo:
+                icon: fab fa-weibo
+                url: https://weibo.com/p/1005057311637589
+    #         Facebook:
+    #             icon: fab fa-facebook
+    #             url: 'https://facebook.com'
+    #         Twitter:
+    #             icon: fab fa-twitter
+    #             url: 'https://twitter.com'
+    #         Dribbble:
+    #             icon: fab fa-dribbble
+    #             url: 'https://dribbble.com'
+    #         RSS:
+    #             icon: fas fa-rss
+    #             url: /
+    # # Table of contents widget configurations
+    
+    
+  - type: recent_posts
+    position: left

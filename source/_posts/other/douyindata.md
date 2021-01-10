@@ -1,23 +1,34 @@
 ---
-title: douyindata
+title: 关于douyin接口数据爬取工具总结
 date: 2020-03-17 14:29:12
 tags: other
 categories: other
 ---
 
+*\*为我最终使用的工具*
 
-fiddler->mitmproxy->anyproxy
+## http抓包工具 
 
-fiddler anyproxy 可用
+- fiddler
+- mitmproxy
+- anyproxy *
 
-逍遥模拟器
+## android模拟器
 
-xposed + jesttrustme (劫持后可继续使用https)
+- 逍遥模拟器 *
 
-php+adb 模拟操作
+## android 安装工具
 
-wsl+grep 分析anyproxy数据
+- xposed *
+  - jesttrustme (劫持后可继续使用https) *
 
-<!--more-->
+## 动作模拟驱动组合
+
+- php+adb 模拟操作
+
+## 数据分析
+
+- 直接 grep anyproxy log 数据
+
 
 

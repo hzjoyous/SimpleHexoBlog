@@ -15,6 +15,11 @@ git config --global --unset https.proxy
 ```
 
 ```
+
+$env:HTTPS_PROXY="http://127.0.0.1:11000"
+
+$env:HTTP_PROXY="http://127.0.0.1:11000"
+
 set http_proxy=http://127.0.0.1:11000
 set https_proxy=http://127.0.0.1:11000
 
