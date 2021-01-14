@@ -28,6 +28,7 @@
     "moment": "^2.25.3"
   },
   "devDependencies": {
-    "hexo-theme-icarus": "^4.1.1"
+    "hexo-theme-icarus": "^4.1.1",
+    "inquirer": "^7.3.3"
   }
 }
