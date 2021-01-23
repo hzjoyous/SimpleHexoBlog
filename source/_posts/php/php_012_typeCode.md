@@ -1,10 +1,15 @@
 ---
-title: PHP[012]:TypeCode
+title: 'PHP[012]:TypeCode'
 p: php/php_012_typeCode
-date: 2018-10-27 09:48:45
-tags: php
-categories: php 
+date: '2018-10-27T17:48:45+08:00'
+tags:
+    - php
+categories:
+    - php
+
 ---
+
+
 
 如何利用php严格模式写出理想的代码
 

@@ -1,11 +1,15 @@
 ---
-title: React[003]样式
-date: 2020-01-29 18:44
-tags: 
-- React
-- js
-categories: web
+title: 'React[003]样式'
+date: '2020-01-29T18:44:00+08:00'
+tags:
+    - React
+    - js
+categories:
+    - web
+
 ---
+
+
 
 
 ```

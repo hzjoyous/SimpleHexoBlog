@@ -1,9 +1,14 @@
 ---
 title: chinese-copywriting-guidelines
-date: 2020-08-17 22:59:43
-tags: other
-categories: other
+date: '2020-08-18T06:59:43+08:00'
+tags:
+    - other
+categories:
+    - other
+
 ---
+
+
 
 > 转载
 

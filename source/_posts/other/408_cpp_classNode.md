@@ -1,9 +1,14 @@
 ---
 title: 408_cpp_classNode
-date: 2020-08-22 10:22:08
-tags: other
-categories: other
+date: '2020-08-22T18:22:08+08:00'
+tags:
+    - other
+categories:
+    - other
+
 ---
+
+
 
 
 ## 利用class析构函数简化内存回收方式

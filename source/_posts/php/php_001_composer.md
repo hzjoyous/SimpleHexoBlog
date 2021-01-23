@@ -1,9 +1,14 @@
 ---
-title: PHP[001]:Composer
-date: 2018-10-27 09:48:32
-tags: php
-categories: php 
+title: 'PHP[001]:Composer'
+date: '2018-10-27T17:48:32+08:00'
+tags:
+    - php
+categories:
+    - php
+
 ---
+
+
 
 > https://github.com/slince/composer-registry-manager
 

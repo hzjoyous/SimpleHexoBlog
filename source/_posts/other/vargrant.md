@@ -1,9 +1,14 @@
 ---
-title: 使用 vargrant 运行 lnmp 环境
-date: 2018-11-04 15:25:38
-tags: tool
-categories: tool
+title: '使用 vargrant 运行 lnmp 环境'
+date: '2018-11-04T23:25:38+08:00'
+tags:
+    - tool
+categories:
+    - tool
+
 ---
+
+
 
 ```
 $ vagrant init      # 初始化    

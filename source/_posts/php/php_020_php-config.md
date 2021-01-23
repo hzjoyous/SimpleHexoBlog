@@ -1,10 +1,15 @@
 ---
-title: PHP[020]:--with-php-config
+title: 'PHP[020]:--with-php-config'
 p: php/--with-php-config
-date: 2020-01-15 15:20:09
-tags: php
-categories: php 
+date: '2020-01-15T23:20:09+08:00'
+tags:
+    - php
+categories:
+    - php
+
 ---
+
+
 
 ```
 configure: WARNING: unrecognized options: --with-php-config

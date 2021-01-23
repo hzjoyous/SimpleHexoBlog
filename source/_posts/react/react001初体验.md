@@ -1,11 +1,15 @@
 ---
-title: React[001]:初体验
-date: 2020-01-28 23:01
-tags: 
-- React
-- js
-categories: web
+title: 'React[001]:初体验'
+date: '2020-01-28T23:01:00+08:00'
+tags:
+    - React
+    - js
+categories:
+    - web
+
 ---
+
+
 
 # 小样儿挺别致呀，写起来的感觉
 

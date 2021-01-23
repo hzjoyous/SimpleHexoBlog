@@ -1,10 +1,14 @@
 ---
 title: react-router_react-router-dom二级目录写法
-date: 2020-02-13 22:30:36
-tags: 
-- react
-categories: web
+date: '2020-02-14T06:30:36+08:00'
+tags:
+    - react
+categories:
+    - web
+
 ---
+
+
 
 
 **注意第一种方法是react-route,二三种方法是react-router-dom，但是第二种方法个人不推荐**

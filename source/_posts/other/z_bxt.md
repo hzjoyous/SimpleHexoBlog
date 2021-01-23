@@ -1,9 +1,14 @@
 ---
 title: bxt
-date: 2019-12-18 20:33:09
-tags: other
-categories: other
+date: '2019-12-19T04:33:09+08:00'
+tags:
+    - other
+categories:
+    - other
+
 ---
+
+
 
 
 # 包管理工具

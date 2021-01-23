@@ -1,11 +1,15 @@
 ---
-title: php[023]bison--php使用的的词法分析器
-date: 2020-01-20 21:14
-tags: 
-- bison
-- php
-categories: other
+title: 'php[023]bison--php使用的的词法分析器'
+date: '2020-01-20T21:14:00+08:00'
+tags:
+    - bison
+    - php
+categories:
+    - other
+
 ---
+
+
 
 [bison](http://www.gnu.org/software/bison/)
 

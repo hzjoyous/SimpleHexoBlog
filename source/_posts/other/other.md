@@ -1,9 +1,14 @@
 ---
 title: other
-date: 2020-01-25 21:33:45
-tags: other
-categories: other
+date: '2020-01-26T05:33:45+08:00'
+tags:
+    - other
+categories:
+    - other
+
 ---
+
+
 
 # 缓存设计计算机组成原理
 

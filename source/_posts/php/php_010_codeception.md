@@ -1,9 +1,14 @@
 ---
-title: PHP[010]:codeception
-date: 2018-10-27 09:48:43
-tags: php
-categories: php
+title: 'PHP[010]:codeception'
+date: '2018-10-27T17:48:43+08:00'
+tags:
+    - php
+categories:
+    - php
+
 ---
+
+
 # codeception
 
 创建单元测试

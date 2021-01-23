@@ -1,9 +1,14 @@
 ---
 title: 黑盒学习
-date: 2020-01-30 23:40
-tags: other
-categories: other
+date: '2020-01-30T23:40:00+08:00'
+tags:
+    - other
+categories:
+    - other
+
 ---
+
+
 
 *看源码是可以知晓一切*，但是并非最合适使用
 

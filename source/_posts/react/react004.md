@@ -1,11 +1,15 @@
 ---
-title: React[004] Component+数据传递
-date: 2020-01-30 17:51
-tags: 
-- React
-- js
-categories: web
+title: 'React[004] Component+数据传递'
+date: '2020-01-30T17:51:00+08:00'
+tags:
+    - React
+    - js
+categories:
+    - web
+
 ---
+
+
 
 src/components/Header/index.js
 

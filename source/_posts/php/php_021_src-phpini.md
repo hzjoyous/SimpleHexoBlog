@@ -1,9 +1,14 @@
 ---
-title: php[021]:关于phpini加载相对路径(php源码)
-date: 2020-01-20 18:18
-tags: php
-categories: php
+title: 'php[021]:关于phpini加载相对路径(php源码)'
+date: '2020-01-20T18:18:00+08:00'
+tags:
+    - php
+categories:
+    - php
+
 ---
+
+
 
 *起因：之前曾编译了一份php，在目录xxx.xxx.xx/下，由于文件夹名字冗余信息过度，该改名为xxx.xx/改名后运行执行php发现扩展没有被加载，执行php --ini 发现php.ini的加载路径为原来安装时的绝对路径并且为固定值*
 

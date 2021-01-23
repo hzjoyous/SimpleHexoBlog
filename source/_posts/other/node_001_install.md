@@ -1,10 +1,14 @@
 ---
 title: 'node[001]:install'
-date: 2019-03-18 15:20:09
-tags: 
-- node
-categories: node
+date: '2019-03-18T23:20:09+08:00'
+tags:
+    - node
+categories:
+    - node
+
 ---
+
+
 
 ```node
 

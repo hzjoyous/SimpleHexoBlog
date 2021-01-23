@@ -1,9 +1,14 @@
 ---
-title: cgo's gcc in windows
-date: 2020-05-18 10:27:43
-tags: other
-categories: other
+title: 'cgo''s gcc in windows'
+date: '2020-05-18T18:27:43+08:00'
+tags:
+    - other
+categories:
+    - other
+
 ---
+
+
 
 > GCC原名为GNU C语言编译器（GNU C Compiler），只能处理C语言。但其很快扩展，变得可处理C++，后来又扩展为能够支持更多编程语言，如Fortran、Pascal、Objective -C、Java、Ada、Go以及各类处理器架构上的汇编语言等，所以改名GNU编译器套件
 

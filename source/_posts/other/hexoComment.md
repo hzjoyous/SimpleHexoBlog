@@ -1,10 +1,15 @@
 ---
-title: hexo 点评系统
+title: 'hexo 点评系统'
 p: php/comment
-date: 2019-06-16 18:44:17
-tags: other
-categories: other 
+date: '2019-06-17T02:44:17+08:00'
+tags:
+    - other
+categories:
+    - other
+
 ---
+
+
 
 周末两天用 symfony 写了个小的点评系统，接入到 hexo 搭建的博客上，下面放上 git 地址
 

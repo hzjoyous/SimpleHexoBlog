@@ -1,9 +1,14 @@
 ---
 title: 'c/c++[00X]:KMP'
-date: 2019-07-02 14:18:09
-tags: c
-categories: c
+date: '2019-07-02T22:18:09+08:00'
+tags:
+    - c
+categories:
+    - c
+
 ---
+
+
 
 kmp 的 next 串分析
 

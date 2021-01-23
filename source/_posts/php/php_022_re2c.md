@@ -1,12 +1,16 @@
 ---
-title: php[022]re2c
-date: 2020-01-20 20:56
-tags: 
-- re2c
-- php
-- c
-categories: other
+title: 'php[022]re2c'
+date: '2020-01-20T20:56:00+08:00'
+tags:
+    - re2c
+    - php
+    - c
+categories:
+    - other
+
 ---
+
+
 
 re2c 测试运行示例
 

@@ -1,9 +1,14 @@
 ---
 title: http与websocket端口共享
-date: 2019-07-15 07:11:06
-tags: other
-categories: other
+date: '2019-07-15T15:11:06+08:00'
+tags:
+    - other
+categories:
+    - other
+
 ---
+
+
 
 Q:为什么 Socket.IO 可以让 WebSockets 和 HTTP 监听在同一端口
 

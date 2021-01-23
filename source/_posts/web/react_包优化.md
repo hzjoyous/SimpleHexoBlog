@@ -1,13 +1,17 @@
 ---
 title: react_包优化
-date: 2020-02-11 17:33:51
-tags: 
-- web
-- js
-- php
-- lazyload
-categories: other
+date: '2020-02-12T01:33:51+08:00'
+tags:
+    - web
+    - js
+    - php
+    - lazyload
+categories:
+    - other
+
 ---
+
+
 
 把一个react项目打包发布到了githubpage上，结果加载速度异常的慢，同比hexo生成的博客项目，加载速度尚可，打开network分析，两者差距较大，
 react项目的js文件将近1m，但是react的首屏出了一个nav和一段文字描述，其实并没有什么东西。而hexo项目本身文字较多，但js文件累加不足100k。导致react项目在带宽较低的情况下体验极差（我的腾讯云也只有1mbps理论上也需要将近10s才能加载完成）。因为引入库有限，所以对库文件进行分步引入分析。

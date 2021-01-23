@@ -1,9 +1,14 @@
 ---
-title: TS's enum
-date: 2020-01-28 00:27
-tags: other
-categories: other
+title: 'TS''s enum'
+date: '2020-01-28T00:27:00+08:00'
+tags:
+    - other
+categories:
+    - other
+
 ---
+
+
 
 ```ts
 enum Color {Red, Green, Blue}

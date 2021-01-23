@@ -1,13 +1,17 @@
 ---
-title: React_Webpack_alias&&vscode_use_alias
-date: 2020-02-06 23:17:57
-tags: 
-- React
-- vscode
-- js
-- web
-categories: other
+title: 'React_Webpack_alias&&vscode_use_alias'
+date: '2020-02-07T07:17:57+08:00'
+tags:
+    - React
+    - vscode
+    - js
+    - web
+categories:
+    - other
+
 ---
+
+
 
 今天看react的项目目录里view和components是分开的，但是view里面有引用components的组件，然后from'../../xxxx'这种丑陋的引用路径就冒出来了。
 

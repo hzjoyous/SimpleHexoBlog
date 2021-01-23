@@ -1,12 +1,16 @@
 ---
-title: powershell & linux bash
-date: 2020-05-21 22:27:46
-tags: 
-- tool
-- powershell
-- bash
-categories: tool
+title: 'powershell & linux bash'
+date: '2020-05-22T06:27:46+08:00'
+tags:
+    - tool
+    - powershell
+    - bash
+categories:
+    - tool
+
 ---
+
+
 
 > PowerShell 是构建于 .NET 上基于任务的命令行 shell 和脚本语言。 PowerShell 可帮助系统管理员和高级用户快速自动执行用于管理操作系统（Linux、macOS 和 Windows）和流程的任务。
 

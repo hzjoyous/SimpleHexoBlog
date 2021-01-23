@@ -1,11 +1,15 @@
 ---
 title: docker
-date: 2019-01-01 16:25:59
-tags: 
-- tool
-- linux
-categories: tool
+date: '2019-01-02T00:25:59+08:00'
+tags:
+    - tool
+    - linux
+categories:
+    - tool
+
 ---
+
+
 
 ```shell
 $docker-machine create --driver virtualbox --virtualbox-boot2docker-url=/Users/hzj/.docker/machine/cache/boot2docker.iso  default

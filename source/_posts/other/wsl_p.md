@@ -1,9 +1,14 @@
 ---
-title: wsl permissions
-date: 2020-05-03 23:01:16
-tags: other
-categories: other
+title: 'wsl permissions'
+date: '2020-05-04T07:01:16+08:00'
+tags:
+    - other
+categories:
+    - other
+
 ---
+
+
 
 最近在 WSL 下碰到PHP chmod(): Operation not permitted 这个问题，看起来是文件权限的问题，不过查看该文件的权限是 777，不知道是 Bug 还是什么原因导致的，Google 找了下，有说是 Windows 文件系统是 NTFS 的问题，Linux 挂载需要开启一些特性，解决办法是更改 wsl.conf文件。
 

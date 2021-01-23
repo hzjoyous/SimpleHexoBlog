@@ -1,9 +1,14 @@
 ---
-title: Happy new year(qq)
-date: 2020-01-25 10:56
-tags: other
-categories: other
+title: 'Happy new year(qq)'
+date: '2020-01-25T10:56:00+08:00'
+tags:
+    - other
+categories:
+    - other
+
 ---
+
+
 
 
 安装 [酷q](https://cqp.cc/) 及 [CoolQ HTTP API](https://github.com/richardchien/coolq-http-api) 插件

@@ -1,11 +1,15 @@
 ---
-title: React[005]传值给子组件
-date: 2020-01-30 23:12
-tags: 
-- React
-- js
-categories: web
+title: 'React[005]传值给子组件'
+date: '2020-01-30T23:12:00+08:00'
+tags:
+    - React
+    - js
+categories:
+    - web
+
 ---
+
+
 
 index.js
 外部老生畅谈

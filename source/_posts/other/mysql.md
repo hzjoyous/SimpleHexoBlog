@@ -1,10 +1,14 @@
 ---
 title: mysql
-date: 2018-11-04 15:25:38
-tags: 
-- mysql
-categories: mysql
+date: '2018-11-04T23:25:38+08:00'
+tags:
+    - mysql
+categories:
+    - mysql
+
 ---
+
+
 
 # mysql 密码重置那些事儿
 

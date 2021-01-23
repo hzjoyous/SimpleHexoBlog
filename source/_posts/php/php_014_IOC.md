@@ -1,10 +1,15 @@
 ---
-title: PHP[014]:IOC(依赖反转控制容器)
+title: 'PHP[014]:IOC(依赖反转控制容器)'
 p: php/php_013_IOC
-date: 2019-03-18 15:17:57
-tags: php
-categories: php 
+date: '2019-03-18T23:17:57+08:00'
+tags:
+    - php
+categories:
+    - php
+
 ---
+
+
 
 ```php
 <?php

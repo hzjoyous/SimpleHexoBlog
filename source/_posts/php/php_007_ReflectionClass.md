@@ -1,9 +1,14 @@
 ---
-title: PHP[007]:ReflectionClass
-date: 2018-10-27 09:48:40
-tags: php
-categories: php 
+title: 'PHP[007]:ReflectionClass'
+date: '2018-10-27T17:48:40+08:00'
+tags:
+    - php
+categories:
+    - php
+
 ---
+
+
 
 
 ## 调用类私用方法

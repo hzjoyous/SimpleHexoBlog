@@ -1,9 +1,14 @@
 ---
-title: simple_request&&not_so_simple_request
-date: 2020-02-26 13:32:34
-tags: other
-categories: other
+title: 'simple_request&&not_so_simple_request'
+date: '2020-02-26T21:32:34+08:00'
+tags:
+    - other
+categories:
+    - other
+
 ---
+
+
 
 浏览器将CORS请求分成两类：简单请求 simple request 和非简单请求not-so-simple request。
 只要同时满足以下两大条件，就属于简单请求。

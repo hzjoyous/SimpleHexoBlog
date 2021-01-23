@@ -1,11 +1,15 @@
 ---
-title: React[007]:生命周期
-date: 2020-01-31 23:36
-tags: 
-- React
-- js
-categories: web
+title: 'React[007]:生命周期'
+date: '2020-01-31T23:36:00+08:00'
+tags:
+    - React
+    - js
+categories:
+    - web
+
 ---
+
+
 
 [文档](https://zh-hans.reactjs.org/docs/state-and-lifecycle.html)
 [图](http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/)

@@ -1,10 +1,14 @@
 ---
-title: PHP[OOP入门]PH13-异常处理、composer、容器、反射
-date: 2017-01-01 01:02:13
+title: 'PHP[OOP入门]PH13-异常处理、composer、容器、反射'
+date: '2017-01-01T09:02:13+08:00'
 tags:
-- php
-categories: php
+    - php
+categories:
+    - php
+
 ---
+
+
 
 > 该部分为 php 面向对象的入门部分，较为肤浅且参杂过分已经不是主流的知识。
 

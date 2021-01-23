@@ -1,10 +1,15 @@
 ---
-title: PHP[018]:RabbitMq
+title: 'PHP[018]:RabbitMq'
 p: php/php_018_RabbitMq
-date: 2019-03-19 15:20:09
-tags: php
-categories: php 
+date: '2019-03-19T23:20:09+08:00'
+tags:
+    - php
+categories:
+    - php
+
 ---
+
+
 
 
 # rabbitMq

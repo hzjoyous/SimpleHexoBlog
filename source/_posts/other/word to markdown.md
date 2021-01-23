@@ -1,9 +1,14 @@
 ---
-title: word to markdown
-date: 2020-05-06 22:40:23
-tags: other
-categories: other
+title: 'word to markdown'
+date: '2020-05-07T06:40:23+08:00'
+tags:
+    - other
+categories:
+    - other
+
 ---
+
+
 
 
 # pandoc 

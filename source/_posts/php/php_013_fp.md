@@ -1,10 +1,15 @@
 ---
-title: PHP[013]:fp
+title: 'PHP[013]:fp'
 p: php/php_013_fp
-date: 2019-03-18 15:17:56
-tags: php
-categories: php 
+date: '2019-03-18T23:17:56+08:00'
+tags:
+    - php
+categories:
+    - php
+
 ---
+
+
 
 ```php
 <?php

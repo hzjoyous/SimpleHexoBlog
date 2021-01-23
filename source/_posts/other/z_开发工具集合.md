@@ -1,9 +1,14 @@
 ---
 title: 开发工具集合
-date: 2019-07-06 11:12:20
-tags: other
-categories: other
+date: '2019-07-06T19:12:20+08:00'
+tags:
+    - other
+categories:
+    - other
+
 ---
+
+
 
 个人开发工具集合整理
 

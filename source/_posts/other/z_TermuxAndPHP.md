@@ -1,9 +1,14 @@
 ---
 title: TermuxAndPHP
-date: 2020-01-08 17:01:21
-tags: linux 
-categories: linux
+date: '2020-01-09T01:01:21+08:00'
+tags:
+    - linux
+categories:
+    - linux
+
 ---
+
+
 
 # Termux  
 

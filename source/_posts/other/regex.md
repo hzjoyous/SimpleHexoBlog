@@ -1,9 +1,14 @@
 ---
 title: regex
-date: 2018-12-05 15:25:38
-tags: tool
-categories: tool
+date: '2018-12-05T23:25:38+08:00'
+tags:
+    - tool
+categories:
+    - tool
+
 ---
+
+
 
 
 ```regex

@@ -1,10 +1,15 @@
 ---
-title: PHP[015]:PHP Enum
-p: php/php_015_PHP Enum
-date: 2019-03-18 15:17:58
-tags: php
-categories: php 
+title: 'PHP[015]:PHP Enum'
+p: 'php/php_015_PHP Enum'
+date: '2019-03-18T23:17:58+08:00'
+tags:
+    - php
+categories:
+    - php
+
 ---
+
+
 
 ```php
 <?php

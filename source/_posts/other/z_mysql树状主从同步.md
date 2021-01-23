@@ -1,11 +1,15 @@
 ---
 title: mysql树状主从同步
-date: 2019-07-14 05:44:22
-tags: 
-- other
-- mysql
-categories: other
+date: '2019-07-14T13:44:22+08:00'
+tags:
+    - other
+    - mysql
+categories:
+    - other
+
 ---
+
+
 
 之前出过一次因为因为主库写入数量过多而从库数量不少，但是带宽不够导致的主从同步延迟严重的问题，所以想到了一个树状多层级的mysql主从同步结构，之后有时间可能会用虚拟机进行一下模拟
 

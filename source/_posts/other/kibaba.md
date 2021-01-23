@@ -1,9 +1,14 @@
 ---
 title: kibaba
-date: 2018-11-04 15:25:38
-tags: tool
-categories: tool
+date: '2018-11-04T23:25:38+08:00'
+tags:
+    - tool
+categories:
+    - tool
+
 ---
+
+
 
 
 # 过滤语句

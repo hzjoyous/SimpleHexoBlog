@@ -1,9 +1,14 @@
 ---
 title: vue标签隐藏
-date: 2020-01-19 12:20:33
-tags: other
-categories: other
+date: '2020-01-19T20:20:33+08:00'
+tags:
+    - other
+categories:
+    - other
+
 ---
+
+
 
 no use 
 

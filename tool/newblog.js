@@ -1,6 +1,8 @@
 
 const program = require('commander');
 const chalk = require('chalk');
+const YAML = require('yaml')
+
 const moment = require('moment');
 var inquirer = require('inquirer');
 var fs = require("fs")
@@ -25,14 +27,25 @@ program.version('0.0.1');
 
 
 function getBlankTemplate(blogName) {
+
     let createTime = moment().format('YYYY-MM-DD HH:mm:ss')
+
+
+    header = {
+        title: blogName,
+        toc: true,
+        date: createTime,
+        thumbnail: 'https://cdn.jsdelivr.net/gh/removeif/blog_image/img/2019/20190919221611.png',
+        tags: ["other", "blog"],
+        categories: ["other"],
+
+    };
+
     let content = "---\n";
-    content += "title: " + blogName + "\n";
-    content += "date: " + createTime + "\n";
-    content += "tags: " + 'other' + "\n";
-    content += "categories: " + 'other' + "\n";
+    content += YAML.stringify(header) + "\n";
     content += "---\n";
     content += "\n\n\n<!--more-->\n\n\n";
+
     return content;
 }
 
@@ -59,7 +72,7 @@ inquirer
         console.log(chalk.blue(groupName));
         console.log(chalk.blue(groupName));
 
-        var content = getBlankTemplate(postName);
+        var content = getBlankTemplate(postName, groupName);
         var haveDir = false
         try {
             var stat = fs.statSync(POST_PATH + groupName);

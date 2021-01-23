@@ -1,10 +1,15 @@
 ---
-title: PHP[016]:PHP 对象数组
-p: php/php_016_PHP 对象数组
-date: 2019-03-18 15:17:59
-tags: php
-categories: php 
+title: 'PHP[016]:PHP 对象数组'
+p: 'php/php_016_PHP 对象数组'
+date: '2019-03-18T23:17:59+08:00'
+tags:
+    - php
+categories:
+    - php
+
 ---
+
+
 
 ```php
 <?php

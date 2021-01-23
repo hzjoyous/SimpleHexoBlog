@@ -1,9 +1,14 @@
 ---
 title: jsx
-date: 2020-02-05 12:40:18
-tags: other
-categories: other
+date: '2020-02-05T20:40:18+08:00'
+tags:
+    - other
+categories:
+    - other
+
 ---
+
+
 
 首先看一段原生php代码（不了解php没关系，下面就是一个原生html内嵌了一段php代码，在服务端，php的解释器会将php代码转换成html）
 

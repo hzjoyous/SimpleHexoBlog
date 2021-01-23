@@ -1,9 +1,14 @@
 ---
 title: JekyllToHexo
-date: 2018-11-04 18:31:58
-tags: other
-categories: other
+date: '2018-11-05T02:31:58+08:00'
+tags:
+    - other
+categories:
+    - other
+
 ---
+
+
 
 
 # githubPage 博客迁移

@@ -1,9 +1,14 @@
 ---
 title: password
-date: 2020-02-24 19:10:43
-tags: other
-categories: other
+date: '2020-02-25T03:10:43+08:00'
+tags:
+    - other
+categories:
+    - other
+
 ---
+
+
 
 两段示例，以作使用php自带加密方法的迁移之备
 

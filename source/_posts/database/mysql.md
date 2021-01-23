@@ -1,9 +1,14 @@
 ---
 title: mysql
-date: 2020-06-25 21:28:53
-tags: database
-categories: database
+date: '2020-06-26T05:28:53+08:00'
+tags:
+    - database
+categories:
+    - database
+
 ---
+
+
 
 # crud
 

@@ -1,9 +1,14 @@
 ---
-title: Just so so
-date: 2018-11-04 15:25:38
-categories: blog
-tags: blog
+title: 'Just so so'
+date: '2018-11-04T23:25:38+08:00'
+categories:
+    - blog
+tags:
+    - blog
+
 ---
+
+
 
 # Before You Feel Pressure
 

@@ -1,9 +1,14 @@
 ---
 title: 'c/c++[001]:start'
-date: 2017-05-25 15:18:09
-tags: c
-categories: c
+date: '2017-05-25T23:18:09+08:00'
+tags:
+    - c
+categories:
+    - c
+
 ---
+
+
 
 # cin cout scanf printf
 

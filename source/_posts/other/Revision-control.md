@@ -1,9 +1,14 @@
 ---
-title: Revision control (版本控制)
-date: 2018-11-04 15:25:38
-tags: tool
-categories: tool
+title: 'Revision control (版本控制)'
+date: '2018-11-04T23:25:38+08:00'
+tags:
+    - tool
+categories:
+    - tool
+
 ---
+
+
 
 # git
 ```sh

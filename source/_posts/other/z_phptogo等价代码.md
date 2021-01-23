@@ -1,9 +1,14 @@
 ---
 title: phptogo等价代码
-date: 2019-07-10 18:28:13
-tags: other
-categories: other
+date: '2019-07-11T02:28:13+08:00'
+tags:
+    - other
+categories:
+    - other
+
 ---
+
+
 
 php 和 go 的等价代码参考
 

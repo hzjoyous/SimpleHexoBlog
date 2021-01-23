@@ -1,9 +1,14 @@
 ---
 title: 强类型的鸭子类型
-date: 2019-07-14 07:04:25
-tags: other
-categories: other
+date: '2019-07-14T15:04:25+08:00'
+tags:
+    - other
+categories:
+    - other
+
 ---
+
+
 
 [鸭子类型](https://zh.wikipedia.org/wiki/%E9%B8%AD%E5%AD%90%E7%B1%BB%E5%9E%8B)
 

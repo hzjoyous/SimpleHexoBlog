@@ -1,9 +1,14 @@
 ---
 title: ubuntu_crontab
-date: 2019-11-17 13:59:13
-tags: other
-categories: other
+date: '2019-11-17T21:59:13+08:00'
+tags:
+    - other
+categories:
+    - other
+
 ---
+
+
 ubuntu下crontab启动，重启，关闭命令
 
 ```

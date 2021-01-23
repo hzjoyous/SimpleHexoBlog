@@ -1,9 +1,14 @@
 ---
-title: PHP[004]:laravel 5.5
-date: 2018-10-27 09:48:36
-tags: php
-categories: php
+title: 'PHP[004]:laravel 5.5'
+date: '2018-10-27T17:48:36+08:00'
+tags:
+    - php
+categories:
+    - php
+
 ---
+
+
 
 ```
 运行 Laravel Mix

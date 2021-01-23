@@ -1,12 +1,16 @@
 ---
 title: node_callback_吐槽
-date: 2020-01-19 17:10
-tags: 
-- nodejs
-- js
-- callback
-categories: other
+date: '2020-01-19T17:10:00+08:00'
+tags:
+    - nodejs
+    - js
+    - callback
+categories:
+    - other
+
 ---
+
+
 
 接今天上一篇文章,用node写的辅助生成文章的数据写入磁盘部分真是不吐不快。
 

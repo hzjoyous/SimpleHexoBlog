@@ -1,11 +1,15 @@
 ---
-title: React[002]:jsx
-date: 2020-01-29 18:45
-tags: 
-- React
-- js
-categories: web
+title: 'React[002]:jsx'
+date: '2020-01-29T18:45:00+08:00'
+tags:
+    - React
+    - js
+categories:
+    - web
+
 ---
+
+
 
 js/jsx/js=>jsx
 

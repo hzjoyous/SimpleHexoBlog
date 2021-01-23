@@ -1,11 +1,15 @@
 ---
-title: React[006]:事件
-date: 2020-01-31 13:37
-tags: 
-- React
-- js
-categories: web
+title: 'React[006]:事件'
+date: '2020-01-31T13:37:00+08:00'
+tags:
+    - React
+    - js
+categories:
+    - web
+
 ---
+
+
 
 **this.xxx.bind(this,pram)**
 **方法的传递**

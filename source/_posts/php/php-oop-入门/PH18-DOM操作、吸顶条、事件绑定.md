@@ -1,10 +1,14 @@
 ---
-title: PHP[OOP入门]PH18-DOM操作、吸顶条、事件绑定
-date: 2017-01-01 01:02:18
+title: 'PHP[OOP入门]PH18-DOM操作、吸顶条、事件绑定'
+date: '2017-01-01T09:02:18+08:00'
 tags:
-- php
-categories: php
+    - php
+categories:
+    - php
+
 ---
+
+
 
 > 该部分为 php 面向对象的入门部分，较为肤浅且参杂过分已经不是主流的知识。
 

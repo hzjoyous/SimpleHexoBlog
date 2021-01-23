@@ -1,9 +1,14 @@
 ---
-title: PHP[005]:function
-date: 2018-10-27 09:48:38
-tags: php
-categories: php 
+title: 'PHP[005]:function'
+date: '2018-10-27T17:48:38+08:00'
+tags:
+    - php
+categories:
+    - php
+
 ---
+
+
 
 ```php
 <?php

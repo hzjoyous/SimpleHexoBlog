@@ -1,9 +1,14 @@
 ---
 title: code
-date: 2020-04-12 16:07:20
-tags: other
-categories: other
+date: '2020-04-13T00:07:20+08:00'
+tags:
+    - other
+categories:
+    - other
+
 ---
+
+
 
 ## value
 

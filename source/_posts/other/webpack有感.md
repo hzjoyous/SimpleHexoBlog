@@ -1,9 +1,14 @@
 ---
-title: webpack 有感
-date: 2019-06-28 23:25:00
-tags: other
-categories: other
+title: 'webpack 有感'
+date: '2019-06-29T07:25:00+08:00'
+tags:
+    - other
+categories:
+    - other
+
 ---
+
+
 
 明天就要回乡了，抓紧看了下书（其实是被子都寄走了，晚上睡觉不舒服）
 <!--more-->

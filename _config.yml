@@ -101,9 +101,8 @@ ignore:
 ## Themes: https://hexo.io/themes/
 #theme: landscape
 #landscape is a default theme
-# theme: hexo-theme-sagiri
-# theme: next6
-theme: icarus
+theme: amazing
+# theme: study
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

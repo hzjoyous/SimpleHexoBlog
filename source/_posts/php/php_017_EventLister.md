@@ -1,10 +1,15 @@
 ---
-title: PHP[017]:事件监听
+title: 'PHP[017]:事件监听'
 p: php/php_017_事件监听
-date: 2019-03-18 15:20:09
-tags: php
-categories: php 
+date: '2019-03-18T23:20:09+08:00'
+tags:
+    - php
+categories:
+    - php
+
 ---
+
+
 
 ```php
 <?php
