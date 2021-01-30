@@ -1,5 +1,5 @@
 ---
-title: chinese-copywriting-guidelines
+title: 中文文案排版指北
 date: '2020-08-18T06:59:43+08:00'
 tags:
     - other

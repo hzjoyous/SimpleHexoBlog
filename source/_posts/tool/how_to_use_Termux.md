@@ -1,13 +1,24 @@
 ---
-title: TermuxAndPHP
+title: 'how to use Termux'
 date: '2020-01-09T01:01:21+08:00'
 tags:
     - linux
+    - tool
 categories:
-    - linux
+    - HowToUse
 
 ---
+<!-- TOC -->
 
+- [Termux](#termux)
+  - [起步](#起步)
+  - [开启ssh](#开启ssh)
+  - [安装环境](#安装环境)
+- [最后](#最后)
+
+<!-- /TOC -->
+
+<!--more-->
 
 
 # Termux  

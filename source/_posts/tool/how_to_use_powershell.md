@@ -6,16 +6,26 @@ tags:
     - powershell
     - bash
 categories:
-    - tool
+    - HowToUse
 
 ---
 
+<!-- TOC -->
 
+- [pwsh docs 地址](#pwsh-docs-地址)
+- [pwsh vs bash](#pwsh-vs-bash)
+- [my profile](#my-profile)
+- [other](#other)
+
+<!-- /TOC -->
 
 > PowerShell 是构建于 .NET 上基于任务的命令行 shell 和脚本语言。 PowerShell 可帮助系统管理员和高级用户快速自动执行用于管理操作系统（Linux、macOS 和 Windows）和流程的任务。
 
+# pwsh docs 地址
+
 [pwsh docs](https://docs.microsoft.com/zh-cn/powershell/scripting/overview?view=powershell-7)
- 
+
+# pwsh vs bash
 | pwsh                                                       | bash                       |
 | ---------------------------------------------------------- | -------------------------- |
 | `Start-Job -ScriptBlock {hexo s}`                          | `hexo s &`                 |
@@ -29,6 +39,8 @@ categories:
 
 <!--more-->
 
+
+# my profile
 
 普通用户下执行`$profile`以获取启动脚本路径`powershell 需要在管理员权限下执行 set-executionpolicy remotesigned 以使用自建脚本` ，等价`~/.bashrc`
 
@@ -63,7 +75,7 @@ if (Test-Path($ChocolateyProfile)) {
 
 ```
 
-## other
+# other
 
 
 ```bat

@@ -1,18 +1,33 @@
 ---
-title: 开发工具集合
-date: '2019-07-06T19:12:20+08:00'
+title: ToolList
+date: '2020-04-03T19:47:12+08:00'
 tags:
     - other
 categories:
-    - other
+    - HowToUse
 
 ---
 
 
 
-个人开发工具集合整理
 
 <!--more-->
+
+
+
+- anyproxy
+  - fiddler
+  - mitmproxy
+- wsl/powershell+ssh+termial
+  - xshell
+  - MobaXterm
+- mycli
+  - mysqlshell
+  - workbench
+  - phpmyadmin
+  - DataGrip
+  - navicat
+
 | name       | desc                        | IsGui |
 |------------|-----------------------------|-------|
 | php        | script                      | false |
@@ -34,5 +49,6 @@ categories:
 
 
 
+[logo在线生成](http://www.uugai.com/logoa/font_a_down.php?font=z153)
 
-
+[接口mock](https://github.com/thx/rap2-delos) 厉害了

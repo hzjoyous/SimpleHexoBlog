@@ -1,10 +1,12 @@
 ---
-title: 'wsl permissions'
+title: 'how to use wsl'
 date: '2020-05-04T07:01:16+08:00'
 tags:
     - other
+    - wsl
+    - win
 categories:
-    - other
+    - HowToUse
 
 ---
 

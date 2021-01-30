@@ -10,6 +10,17 @@ categories:
 
 
 
+# 流程分析
+
+- 获取所有好友列表
+- 便利列表获取好友信息
+    - 单个好友发送信息
+    - 单个好友分析性别，备注，是否是老师，进而生成对应的带昵称（老x,x老板,xx老师）的拜年信息
+    - 单个好友发送多次拜年信息
+- end
+  
+
+<!--more-->
 
 安装 [酷q](https://cqp.cc/) 及 [CoolQ HTTP API](https://github.com/richardchien/coolq-http-api) 插件
 

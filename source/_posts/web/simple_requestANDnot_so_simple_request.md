@@ -1,11 +1,11 @@
 ---
-title: 'simple_request&&not_so_simple_request'
+title: 'simple request / not so simplerequest'
 date: '2020-02-26T21:32:34+08:00'
 tags:
     - other
+    - Network protocol
 categories:
-    - other
-
+    - knowledge
 ---
 
 

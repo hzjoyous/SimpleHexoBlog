@@ -29,4 +29,4 @@ pip freeze > requirement.txt
 pip install -r requirement.txt
 ```
 
-嗯满奇葩的（与 npm 和 composer 比起来）
+这个迁移方式不是很习惯

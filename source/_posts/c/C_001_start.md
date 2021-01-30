@@ -12,7 +12,6 @@ categories:
 
 # cin cout scanf printf
 
-作为一个学校课程跳过c语言的萌新，这次重新学习c/c++从源头上明白这两种不同的输入输出还是很有必要
 
 scanf()是C语言中的一个输入函数。与printf函数一样，都被声明在头文件stdio.h里，因此在使用 scanf 函数时要加上`#include <stdio.h>`。（在有一些实现中，printf函数与scanf函数在使用时可以不使用预编译命令`#include <stdio.h>`。）它是格式输入函数，即按用户指定的格式从键盘上把数据输入到指定的变量之中。
 
