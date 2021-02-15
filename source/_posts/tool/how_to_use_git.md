@@ -22,6 +22,7 @@ categories:
 - [如果经常产生文件属性变更的情况，可以设置](#如果经常产生文件属性变更的情况可以设置)
 - [几乎所有的 git 撤销](#几乎所有的-git-撤销)
 - [如何使用 vimdiff 来 git diff /svn diff](#如何使用-vimdiff-来-git-diff-svn-diff)
+- [账号修改后推送拉取问题](#账号修改后推送拉取问题)
 
 <!-- /TOC -->
 
@@ -127,3 +128,13 @@ git config --global difftool.prompt false
 git config --global alias.d difftool
 ```
 
+
+# 账号修改后推送拉取问题
+
+原因：将gitee和github的登录邮箱更换了，导致推送代码出现认证失败，需要重置账号密码
+
+> 执行权限不够可以切换至管理员权限执行
+
+```
+git config --system --unset credential.helper
+```
