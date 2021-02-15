@@ -17,6 +17,7 @@ categories:
 - [svn 根据提交人过滤 / sed 命令的使用](#svn-根据提交人过滤--sed-命令的使用)
 - [匹配文件后缀为 .jpg 的文件并且删除](#匹配文件后缀为-jpg-的文件并且删除)
 - [grep and kill](#grep-and-kill)
+- [svn 如何实现vimdiff](#svn-如何实现vimdiff)
 
 <!-- /TOC -->
 
@@ -52,4 +53,22 @@ find ./ -name '*.jpg'  | xargs rm
 # grep and kill
 ```sh
 ps -ef|grep "zhaoyinfan/supervisor" | grep -v grep | awk '{print $1}' | xargs kill -9
+```
+
+# svn 如何实现vimdiff
+```sh
+vim ~/.subversion/config
+
+diff-cmd = /usr/local/bin/svndiff
+```
+
+```sh
+#!/bin/sh
+#配置你喜欢的diff程序路径 svndiff
+ DIFF="vimdiff"
+#SVN diff命令会传入两个文件的参数 
+ LEFT=${6}
+ RIGHT=${7}
+# 拼接成diff命令所需要的命令格式
+ $DIFF $LEFT $RIGHT
 ```
