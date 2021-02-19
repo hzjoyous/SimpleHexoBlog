@@ -111,5 +111,5 @@ deploy:
   # repo: git@github.com:hzjoyous/hzjoyous.github.io.git
   repo: 
     github: https://github.com/hzjoyous/hzjoyous.github.io.git
-    gitee: https://gitee.com/hzjoyous/hzjoyous.git
+    # gitee: https://gitee.com/hzjoyous/hzjoyous.git
   branch: master
