@@ -149,13 +149,13 @@ reload();
 
 navigator
 
-　　navigator.appName　　 Web浏览器全称 都是netscape
+navigator.appName　　 Web浏览器全称 都是netscape
 
-　　　　navigator.appVersion　　Web浏览器厂商和版本的详细字符串
+navigator.appVersion　　Web浏览器厂商和版本的详细字符串
 
-　　　　navigator.userAgent　　 客户端绝大部分信息
+navigator.userAgent　　 客户端绝大部分信息
 
-　　　　navagator.platform　　　浏览器运行所在的操作系统
+navagator.platform　　　浏览器运行所在的操作系统
 
 5、正则对象
 

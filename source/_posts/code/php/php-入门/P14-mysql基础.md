@@ -164,9 +164,4 @@ json\_decode 将json串转成 object，第二个参数传true 才返回的是数
 
 \-\-\-\-\-\-\-\-\-\--
 
-作业：
 
-测试：字段增加和修改语句(add/change/modify)中，最后都可以加一个可选项
-first\|after。
-
-罚写：全员 数组函数 字符串函数 两遍

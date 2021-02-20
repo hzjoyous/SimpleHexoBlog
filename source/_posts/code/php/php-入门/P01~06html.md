@@ -12,6 +12,47 @@ categories:
 
 > 这是我早期的 php 学习笔记，php 的学习版本版本是 5.6、7，🐟2020/05/06年从有道笔记导出至此。
 
+<!-- TOC -->
+
+- [B/S和C/S的简单认识](#bs和cs的简单认识)
+- [网页的工作原理](#网页的工作原理)
+- [认识标签](#认识标签)
+- [全局架构标签](#全局架构标签)
+  - [body常用属性](#body常用属性)
+  - [字体修饰标记(如下都是双边标记)](#字体修饰标记如下都是双边标记)
+    - [排版标记](#排版标记)
+  - [实体符号](#实体符号)
+  - [无序列表](#无序列表)
+  - [自定义列表](#自定义列表)
+- [HTML再认识](#html再认识)
+  - [URL](#url)
+  - [超链接](#超链接)
+  - [图片img](#图片img)
+  - [音频 视频](#音频-视频)
+  - [表格](#表格)
+- [CSS初认识](#css初认识)
+  - [CSS](#css)
+  - [使用css的好处](#使用css的好处)
+  - [css的三种链接方式](#css的三种链接方式)
+    - [行内样式](#行内样式)
+    - [内联样式](#内联样式)
+    - [外部样式](#外部样式)
+  - [css语法格式和注释](#css语法格式和注释)
+  - [选择器](#选择器)
+  - [尺寸设置](#尺寸设置)
+- [CSS](#css-1)
+  - [vertical-align](#vertical-align)
+  - [背景](#背景)
+  - [列表](#列表)
+  - [布局](#布局)
+  - [边框](#边框)
+  - [盒子模型](#盒子模型)
+  - [内外边距](#内外边距)
+
+<!-- /TOC -->
+
+<!-- more -->
+
 
 # B/S和C/S的简单认识
 
@@ -59,20 +100,13 @@ HTML 是 Hypertext Markup Language
 
 ```html
 <html>
+  <head>
+    <title>是网页的标题</title>
+    <meta charset="utf-8" />
+  </head>
+  <body>要显示在网页的所有内容</body>
+</html><!-- 这是注释 -->
 
-<head>
-
-<title>是网页的标题</title>
-
-</head>
-
-<body>要显示在网页的所有内容</body>
-
-</html>
-
-注释： <!-- 这是注释 -->
-
-<meta charset="utf-8" />
 ```
 
 设置字符集 ：告诉浏览器以utf-8编码格式显示
@@ -83,7 +117,7 @@ HTML 是 Hypertext Markup Language
 - 在head头部 增加 `<meta charset="utf-8">` 
 - 浏览器中：修改编码 
 
-### body常用属性
+## body常用属性
 | tag         | desc                                   |
 | ----------- | -------------------------------------- |
 | bgcolor     | 背景颜色                               |
@@ -95,29 +129,21 @@ HTML 是 Hypertext Markup Language
 | vlink       | 访问过后的状态                         |
 | alink       | 鼠标点击时候的状态                     |
 
-### 字体修饰标记(如下都是双边标记)
+## 字体修饰标记(如下都是双边标记)
 
 `<font></font>`
 
-size:字体大小 属性值是：1-7
-
-face：字体 (楷体，微软雅黑....)
-
-color:字体颜色
-
-颜色： `#000000` 前两位是红色 中间是绿色 结尾两位是蓝色
+size: 字体大小 属性值是：1-7  
+face：字体 (楷体，微软雅黑....)  
+color: 字体颜色  
+颜色： `#000000` 前两位是红色 中间是绿色 结尾两位是蓝色  
 
 ```html
 <b></b>：字体加粗(strong)
-
 <i></i>：斜体显示字体(em,cite)
-
 <u></u>: 是下划线
-
 <s></s>: 删除线
-
 <sub></sub>：下标
-
 <sup></sup>：上标
 ```
 
@@ -134,84 +160,72 @@ color:字体颜色
 <pre>原样输出</pre>（在学php时候 经常使用输出数据的时候进行格式化）
 ```
 
-### 实体符号
+## 实体符号
 
 诸如 "<" 之类的符号在HTML中拥有特殊的含义，所以在文本中使用它们。
+> &nbsp; (空格) &lt; &gt; &amp;&copy;&trade; &reg; &times; &divide;
 ```html
 &nbsp; 空格
-
 &lt; （<）
-
 &gt; (>)
-
 &amp;
-
 &copy;
-
 &trade;
-
 &reg; &times; &divide;
 ```
 
-### 无序列表
+## 无序列表
 ```html
 <ul>
-
-<li> </li>
-
-<li> </li>
-
-<li> </li>
-
-<li> </li>
-
+    <li> </li>
+    <li> </li>
+    <li> </li>
+    <li> </li>
 </ul>
 ```
 
 type:
-
-disc：默认的黑心圆样式
-
-circle：空心圆
-
-square: 实心方块
+- disc：默认的黑心圆样式
+- circle：空心圆
+- square: 实心方块
 
 10.有序列表
+> <ol>
+>     <li></li>
+>     <li></li>
+>     <li></li>
+> </ol>
 
 ```html
 <ol>
-
-<li></li>
-
-<li></li>
-
-<li></li>
-
+    <li></li>
+    <li></li>
+    <li></li>
 </ol>
 ```
 
-type: 1 A a I
+`type`: 1 A a I  
+`start`: 要显示列表的起始位置
 
-start: 要显示列表的起始位置
+## 自定义列表
 
-### 自定义列表
+> <dl>
+>   <dt>我是简介名</dt>
+>   <dd>幸福的孩子</dd>
+>   <dd>杜海涛</dd>
+>   <dd>刘翔</dd>
+> </dl>
 
 ```html
-
 <dl>
-
-<dt>我是简介名</dt>
-
-<dd>幸福的孩子</dd>
-
-<dd>杜海涛</dd>
-
-<dd>刘翔</dd>
-
+    <dt>我是简介名</dt>
+    <dd>幸福的孩子</dd>
+    <dd>杜海涛</dd>
+    <dd>刘翔</dd>
 </dl>
 ```
 
-class id style name 他们四个都是属性名 配合我们的css 跟 js
+class id style name 他们四个都是属性名 配合我们的 css 跟 js
 
 **基本上每个标签都有这四个属性**
 
@@ -223,27 +237,26 @@ class id style name 他们四个都是属性名 配合我们的css 跟 js
 
 做内容展示，所有人访问都是一样叫静态网页
 
-
-day02 HTML再认识
+# HTML再认识
 
 nobr:
 
 双标签 `<nobr>`中间的内容不允许换行，这就是nobr`</nobr>`
 
-1.URL
+## URL
 
 Uniform Resource Locator 统一资源定位符
 
 组成部分： 协议 地址 端口号 文件 参数
 
-协议：http:// https:// file:// ftp:// smtp:// 邮件传输协议 news://
+协议：`http://` `https://` `file://` `ftp://` `smtp://` 邮件传输协议 `news://`
 
-地址：www.baidu.com 域名 ip (cmd -\> ping 域名)
+地址：`www.baidu.com` 域名 `ip` (cmd -> ping 域名)
 
 端口号：(:80) web http://默认的端口号是80 范围：0-65535
 通常已经被使用：0-1024
 
-https 443 ftp: 21 smtp:// 25
+https: 443 ftp: 21 smtp:// 25
 
 文件：要请求的文件 默认一般是：index.html
 
@@ -253,7 +266,7 @@ https 443 ftp: 21 smtp:// 25
 
 http://www.baidu.com:80/index.html?word=qianfeng&sex=1
 
-2.超链接
+## 超链接
 
 ```html
 <a href="" ></a>
@@ -273,7 +286,7 @@ target：_self 在本窗口打开 _blank 在新窗口打开
 了解（id="锚点名"）
 ```
 
-3.图片img
+## 图片img
 
 src资源地址
 
@@ -289,17 +302,15 @@ src资源地址
 
 https://www.baidu.com/bd_logo1.png
 
-bd_logo.png == https://www.baidu.com/bd_logo1.png
-
-== https://www.baidu.com
+bd_logo.png == https://www.baidu.com/bd_logo1.png == https://www.baidu.com
 
 相对路径：
 
 以当前html文件为一个基准 寻找图片所在的位置 （路径）
 
-./ 在同一级目录（通常可以省略）
+`./` 在同一级目录（通常可以省略）
 
-../ 表示上一级目录(上两级 ../../ 层级多用绝对路径)
+`../` 表示上一级目录(上两级 `../../` 层级多用绝对路径)
 
 alt:当图片加载失败的时候显示的内容
 
@@ -312,7 +323,7 @@ width height
 
 热点地图(了解 ，掌握最好) usemap
 
-4.音频 视频
+## 音频 视频
 
 audio:
 
@@ -330,7 +341,7 @@ width height
 
 src、controls、loop、autoplay
 
-5.表格
+## 表格
 
 table:
 
@@ -384,41 +395,24 @@ a标签扩展：
 <a href="mailto:wanglijuan@1000phone.com">发送邮件</a>
 ```
 
-1：iframe
-(width\\height\\src\\name\\frameborder\\scrolling)
-
-frameborder :0/1
-
-scrolling:no/yes/auto
-
-2: frameset(cols\\rows\\frameborder\\border\\bordercolor\\noresize)
-
-frame(src\\name\\scrolling)
-
-3:form表单
-
-用途：获取有意义的信息，用户键入信息（注册，登陆，留言等等）
-
-属性:(action/method/enctype(multipart/form-data)/target)
-
-基本用途：
-
-form:
-
-action:提交的地址
-
-method:提交的方式
-
-默认：get(在url中显示?参数) post
-
-【注】:拉取信息是时候一般使用get
-
-post:用户提交数据的时候使用
-
-enctype=\"multipart/form-data\"
-现在记住这个，是上传文件的时候必须使用一个属性
-
-target：打开提交页面的方式
+1：`iframe(width\height\src\name\frameborder\scrolling)`  
+frameborder: 0/1  
+scrolling: `no`/`yes`/`auto`  
+2: `frameset(cols\rows\frameborder\border\bordercolor\noresize)`
+`frame(src\name\scrolling)`  
+3: form表单  
+用途：获取有意义的信息，用户键入信息（注册，登陆，留言等等）    
+属性:(action/method/enctype(multipart/form-data)/target)    
+基本用途：   
+form:    
+action:提交的地址   
+method:提交的方式  
+默认：get(在url中显示?参数) post  
+【注】:拉取信息是时候一般使用get  
+post:用户提交数据的时候使用  
+enctype=\"multipart/form-data\"  
+现在记住这个，是上传文件的时候必须使用一个属性  
+target：打开提交页面的方式  
 
 (1)input
 
@@ -482,7 +476,9 @@ button：最多时候配合js使用
 
 reset:重置按钮 （清空表单input中用户键入的内容）
 
-\<button\>提交按钮\</button\>
+```
+<button>提交按钮<button\>
+```
 
 (2)select(multiple size name)
 
@@ -502,44 +498,39 @@ option((value selected))
 
 4:头元素
 
-\<link rel=\"stylesheet\" type=\"text/css\" href=\"1.css\" /\>
+`<link rel="stylesheet" type="text/css" href="1.css" />`
 
 链接外部的css样式
 
-\<meta charset=\"utf-8\" /\>
+`<meta charset="utf-8" />`
 
 SEO:搜索引擎优化
 
-\<meta name=\"keywords\" content= \"\" /\>
+`<meta name="keywords" content= "" />`
 
 堆积网站关键字，用来提高网站的排名
 
-\<meta name= \"description\" content= \"\" /\>
+`<meta name= "description" content= "" />`
 
 关于本网站的描述信息
 
-\<meta http-equiv=\"refresh\" content= \"3;url=http://www.baidu.com \"
-/\>
+`<meta http-equiv="refresh" content= "3;url=http://www.baidu.com " />`
 
 在几秒以后跳转
 
-5:无意义的标签
+5: 无意义的标签
 
-div :\<div\>\</div\>
-
-span:
-
-footer：
-
-header
-
-section
+- div 
+- span
+- footer
+- header
+- section
 
 都是双标签
 
-day04-CSS初认识
+# CSS初认识
 
-1.CSS
+## CSS
 
 层叠样式表，Cascading Style Sheet
 
@@ -551,7 +542,7 @@ css：负责网页的排版 将内容友好的展示出来
 
 js: 负责网页的特效，一些动画效果 比如说轮播图
 
-2.使用css的好处
+## 使用css的好处
 
 可以重复层叠样式 达到我们最终想要展示效果
 
@@ -559,62 +550,51 @@ js: 负责网页的特效，一些动画效果 比如说轮播图
 
 可以提高访问速度 节省服务器的流量开支
 
-3.css的三种链接方式
+## css的三种链接方式
 
-1.行内样式
+### 行内样式
 
-格式： style=\"属性名1:属性值1;属性名2:属性值2;\"
+格式： `style="属性名1:属性值1;属性名2:属性值2;"`
 
-2.内联样式
+### 内联样式  
 
 格式: 在head头中增加
-
-\<style type=\"text/css\"\>
-
+```js
+<style type="text/css">
 选择器{
-
-属性:属性值;
-
+    属性:属性值;
 }
+</style>
+```
+### 外部样式
 
-\</style\>
+格式：`<link rel="stylesheet" type="text/css" href="css文件的路径" />`,里面的格式，跟内联样式一样
 
-3.外部样式
-
-格式：
-
-\<link rel=\"stylesheet\" type=\"text/css\" href=\"css文件的路径\" /\>
-
-里面的格式，跟内联样式一样
-
+```css
 选择器{
-
-属性:属性值;
-
+    属性:属性值;
 }
+```
 
-4.css语法格式和注释
-
+## css语法格式和注释
+```css
 选择器{
-
-属性:属性值;
-
+    属性:属性值;
 }
+ /* CSS的注释 */
+```
 
-注释： /\* CSS的注释 \*/
-
-5.选择器
+## 选择器
 
 自定义名规则：数字 字母 下划线 不能以数字开始
 
-标签选择器：所有的标签都可以做标签选择器 如果使用了标签选择器
-当前网页中用这个标签的元素都增加了样式
+标签选择器：所有的标签都可以做标签选择器 如果使用了标签选择器 当前网页中用这个标签的元素都增加了样式
 
 class选择器：
 
 在标签内增加class属性 属性值自定义 在CSS样式中使用如下
 
-.class属性名{样式}
+`.class属性名{样式}`
 
 一个元素可以有多个class名 中间用空格隔开
 
@@ -622,47 +602,42 @@ id选择器：
 
 在标签内增加id属性 属性值自定义 在CSS中使用如下
 
-\#id名{样式}
+`#id名{样式}`
 
-{注}通常一个网页中id名是唯一
+**注**:通常一个网页中id名是唯一
 
 组合选择器:
 
-标签选择器,class，id选择器\.... 形式 ：选择器与选择器之间用逗号隔开
+标签选择器,class，id选择器.... 形式 ：选择器与选择器之间用逗号隔开
 
 将多个元素增加共同的样式
-
-eg: p,.meixi,\#daishu{
+```
+eg: p,.meixi,#daishu{
 
 font-size:35px;
 
 }
-
+```
 层级选择器：使用具有层级关系 可以从父类找到子类找到孙子类 增加样式
 
 选择器用空格隔开
 
-伪类选择器:(link,hover,active,visited, focus, first-child,last-child)
+伪类选择器:`(link,hover,active,visited,focus,first-child,last-child)`
 
 一般用于给 某些选择器增加特殊效果比如 a链接
 
 超链接状态顺序：
 
-a:link{} 正常状态下（默认状态）
+`a:link{}` 正常状态下（默认状态）  
+`a:visited{}` 访问之后的样式  
+`a:hover{}` 鼠标悬停的时候的样式  
+`a:active{}` 鼠标点击时候的样式  
 
-a:visited{} 访问之后的样式
+注意，`a:hover` 必须位于 `a:link` 和 `a:visited` 之后，`a:active` 必须位于 `a:hover` 之后
 
-a:hover{} 鼠标悬停的时候的样式
+可靠的顺序是：`l(link)ov(visited)e` `h(hover)a(active)te`, 即用喜欢和讨厌两个词来概括
 
-a:active{}鼠标点击时候的样式
-
-注意，a:hover 必须位于 a:link 和 a:visited 之后，a:active 必须位于
-a:hover 之后
-
-可靠的顺序是：l(link)ov(visited)e h(hover)a(active)te,
-即用喜欢和讨厌两个词来概括
-
-focus:使用一般配合input input:focus{样式}
+focus:使用一般配合input `input:focus{样式}`
 
 first-child:必须子元素中第一个是要增加样式的元素
 
@@ -672,17 +647,17 @@ last-child:必须子元素中最后一个是要增加的样式的元素
 
 属性选择器:
 
-形式： input\[type=\"password\"\]{样式}
+形式： `input[type="password"]{样式}`
 
-a\[title\]{样式}
+`a[title]{样式}`
 
-\* 通配符:给页面上所有的元素增加样式
+`*` 通配符:给页面上所有的元素增加样式
 
-\[选择器优先级\]
+`[选择器优先级]`
 
-\*\<标签选择器\<class\<id
+`*`<标签选择器<`class`<`id`
 
-6.尺寸设置
+## 尺寸设置
 
 只有块标签才有宽和高 div p section
 
@@ -690,39 +665,39 @@ width height min-height max-height min-width max-width
 
 单位：
 
-%:使用的是父级 的百分比
+`%`:使用的是父级 的百分比
 
-px:像素 一个点就是一个像素
+`px`:像素 一个点就是一个像素
 
-em:设置的是当前元素的父级的字体尺寸
+`em`:设置的是当前元素的父级的字体尺寸
 
-rem： html中的尺寸 倍数
+`rem`： html中的尺寸 倍数
 
-最长使用的字体尺寸: 12px 14px 16px
+最长使用的字体尺寸: `12px` `14px` `16px`
 
 7.常用属性
 
 字体：
 
-font-style：normal 默认状态 italic斜体
+`font-style`：normal 默认状态 italic斜体
 
-font-weight：normal默认状态 bold 加粗
+`font-weight`：normal默认状态 bold 加粗
 
-font-size： 字体的大小 谷歌 默认是16px; 最小支持12px;
+`font-size`： 字体的大小 谷歌 默认是16px; 最小支持12px;
 
-font-family:楷体 微软雅黑
+`font-family`:楷体 微软雅黑
 
-font: style weight size family
+`font`: style weight size family
 
 文本:
 
-text-indent:文本的缩进 最好用em 一般都是2em
+`text-indent`:文本的缩进 最好用em 一般都是2em
 
-text-align：文本的水平对齐方式 left right center
+`text-align`：文本的水平对齐方式 left right center
 
-white-space:nowrap; (了解) 强行在一行显示内容
+`white-space`: nowrap; (了解) 强行在一行显示内容
 
-text-overflow:clip超出部分直接截断 ellipsis：超出部分显示'\...'
+`text-overflow`:clip超出部分直接截断 ellipsis：超出部分显示'...'
 
 配合overflow:hidden使用
 
@@ -740,11 +715,11 @@ line-height：行高 当块标签的高和行高设置值一样会垂直居中
 
 vertical-align：
 
-day05-css
+# CSS
 
-1.vertical-align
+## vertical-align
 
-2.背景
+## 背景
 
 background-color： 背景颜色
 
@@ -774,12 +749,11 @@ scroll：默认属性，背景图不会随着内容的滚动而滚动
 
 )
 
-background-position：一定要有一个背景图
-background-image属性（left、center、right、top、bottom、xy值）
+background-position：一定要有一个背景图 background-image属性（left、center、right、top、bottom、xy值）
 
 简写形式：background:url(erha.jpg) no-repeat pink;
 
-3.列表
+## 列表
 
 list-style：none
 
@@ -789,7 +763,7 @@ list-style-position：inside列表项目标记放置在文本以内/outside
 
 list-style-type
 
-4.布局
+## 布局
 
 float：浮动 left right none
 
@@ -827,8 +801,7 @@ position（
 
 relative：相对自身文档流中的位置进行定位
 
-absolute：相对定位 会脱离文档流 当想从父级定位
-在父级中使用position:relative
+absolute：相对定位 会脱离文档流 当想从父级定位 在父级中使用position:relative
 
 static:默认属性
 
@@ -836,8 +809,7 @@ fixed:相对于当前窗口的
 
 ）
 
-z-index：设置元素的层叠顺序
-值越大越在上边，这个属性的测试需要都为absolute或者fixed的才有效
+z-index：设置元素的层叠顺序 值越大越在上边，这个属性的测试需要都为absolute或者fixed的才有效
 
 如下属性只有当定位是relative、absolute、fixed时有效
 
@@ -849,7 +821,7 @@ bottom
 
 left
 
-5.边框
+## 边框
 
 border
 
@@ -877,9 +849,9 @@ border-radius:
 
 box-shadow:边框的阴影效果
 
-6.盒子模型
+## 盒子模型
 
-7.内外边距
+## 内外边距
 
 padding:内边距
 

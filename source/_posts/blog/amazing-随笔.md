@@ -32,6 +32,7 @@ categories:
   - [构建延迟加载](#构建延迟加载)
 - [了解spring 2018-12-18](#了解spring-2018-12-18)
   - [安装及启动](#安装及启动)
+- [code sex 2018-11-04](#code-sex-2018-11-04)
 
 <!-- /TOC -->
 
@@ -566,3 +567,34 @@ java -jar target/myproject-0.0.1-SNAPSHOT.jar
 # 第二种运行方式
 mvn spring-boot:run
 ```
+
+
+
+---------
+
+# code sex 2018-11-04
+
+>  我们来谈程序员对性的追求。  
+- 可靠性(relibility)  
+- 可读性(readability)  
+- 可维护性(maintainability)  
+- 可测试性(testability)  
+- 可扩展性(extensibility)  
+- 可移植性(portability)  
+- 可伸缩性(scalbility)  
+- 易用性(usability)  
+- 可用性(avaliability)  
+- 可重用性(reusability)  
+- 互操作性(interoperability)  
+- 可管理性(manageability)  
+- 可支持性(supportability)  
+- 一致性(consistency)  
+- 安全性(security)  
+- 性能(performance)  
+- 稳定性(stability)  
+- 精确性(accuracy)  
+- 可客制性(customizability)  
+- 魯棒性(robustness)  
+   
+   
+from https://www.zhihu.com/question/29264868/answer/44134766
